@@ -1,0 +1,112 @@
+<style>
+    div#div_navigate_post{ display:none; }
+</style>
+        <!-- container_top -->
+<div id="div_img_main2"  class="cover" style="" valign="bottom">
+    <div id="div_img_layer">
+        <h1>サイトジェネレータ便利ですよ、<br />
+        使ってみませんか。
+        </h1>
+    </div>
+</div>
+<div class="container" id="id_main_conte">
+
+<div class="row conte" id="id_row_service" style="margin-top:10px;">
+    <div class="col-sm-12" style="text-align:center;">
+    <h2 class="h4_td_title">主要サービス</h2>
+    <hr class="hr_ex1"/>
+    </div>
+</div>
+<div class="row conte" style="">
+    <div class="col-sm-4">
+     <img class="img_kao" src="<%- config.root %>images/pc1.png" style="margin : 10px;">
+    </div>
+    <div class="col-sm-8">
+    <h3>システム開発</h3>
+    <p>適正価格で、安定稼動できるシステムの開発実績がございます。<br>
+    是非導入の検討をお願いします。
+    </p>
+    </div>
+</div>
+<div class="row conte" style="">
+    <div class="col-sm-4">
+     <img class="img_kao" src="<%- config.root %>images/pc1.png" style="margin : 10px;">
+    </div>
+    <div class="col-sm-8">
+    <h3>AI 開発</h3>
+    <p>低価格で。短納期ＡＩの開発の実績がございます。AIコンサルも可能です<br />
+    是非導入の検討をお願いします。
+    </p>
+    </div>
+</div>
+
+<!-- -->
+<div id="id_row_sample" class="row conte_b" style="margin-top:10px;">
+    <div class="col-sm-12" style="text-align:center;">
+    <h3 class="h3_row_title">導入事例</h3>
+    <hr class="hr_wh"/>
+    <div class="flexbox">
+        <div class="flexbox_div">
+          <div class="div_box_image" style="">
+           <img class="img_kao" src="<%- config.root %>images/jidai.png" style="  ">
+          </div>
+          <p class="box-p-user">Aさん </p>
+          <p >
+          コメント１２３<br />
+          コメント１２３<br />
+          コメント１２３<br />
+          コメント１２３<br />
+          </p>
+        </div>
+        <div class="flexbox_div">
+          <div class="div_box_image" style="">
+           <img class="img_kao" src="<%- config.root %>images/women.png" style="">
+          </div>
+          <p class="box-p-user">Bさん </p>
+          <p >
+          コメント１２３<br />
+          コメント１２３<br />
+          コメント１２３<br />
+          コメント１２３<br />
+          </p>
+        </div>
+        <div class="flexbox_div">
+          <div class="div_box_image" style="">
+           <img class="img_kao" src="<%- config.root %>images/buta.png" style="">
+          </div>
+          <p class="box-p-user">Cさん </p>
+          <p >
+          コメント１２３<br />
+          コメント１２３<br />
+          コメント１２３<br />
+          コメント１２３<br />
+          </p>
+        </div>
+        <div class="flexbox_div">
+          <div class="div_box_image" style="">
+           <img class="img_kao" src="<%- config.root %>images/kuma.png" style="">
+          </div>
+          <p class="box-p-user">Dさん </p>
+          <p >
+          コメント１２３<br />
+          コメント１２３<br />
+          コメント１２３<br />
+          コメント１２３<br />
+          </p>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="container" style="">
+        <div class="row conte" style="margin-top:10px;">
+          <div class="col-sm-12">
+            <div id="div_news">
+            <h2 class="h4_td_title" >新着の投稿</h2>
+            <%- partial('_partial/archive', {pagination: 2, index: true}) %>
+            </div>
+          </div>
+        </div>
+</div>
+
+</div>
+

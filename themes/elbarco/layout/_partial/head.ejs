@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <%
+  var title = page.title;
+
+  if (is_archive()){
+    title = 'Archives';
+
+    if (is_month()){
+      title += ': ' + page.year + '/' + page.month;
+    } else if (is_year()){
+      title += ': ' + page.year;
+    }
+  } else if (is_category()){
+    title = 'Category: ' + page.category;
+  } else if (is_tag()){
+    title = 'Tag: ' + page.tag;
+  }
+  %>
+  <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
+  <meta name="viewport" content="width=device-width">
+  <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
+  <% if (theme.rss){ %>
+    <link rel="alternative" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
+  <% } %>
+  <% if (theme.favicon){ %>
+    <link rel="icon" href="<%- theme.favicon %>">
+  <% } %>
+  <%- css('css/ress.css?B3') %>
+  <%- css('css/menu.css?B3') %>
+  <%- css('css/form.css?B3') %>
+  <%- css('css/main.css?B3') %>
+
+</head>
+
+<header>
+  <!-------------------------- SPを消したら.pc_onlyも消す ----------------------->
+  <nav class="nav pc_only">
+  <!-------------------------- SPを消したら.pc_onlyも消す ----------------------->
+    <ul class="nav--menu">
+      <li><a href="<%- config.root %>">HOME</a></li>
+      <li><a href="<%- config.root %>menu">MENU</a></li>
+      <li><a href="<%- config.root %>">TEL</a></li>
+    </ul>
+  </nav>
+
+  <!-------------------------- 消すならここから ----------------------->
+  <div class="sp_only">
+    <div id="nav__toggle">
+      <div class="nav__toggle--area">
+        <span class="burger--line"></span>
+        <span class="burger--line"></span>
+        <span class="burger--line"></span>
+      </div>
+    </div>
+      
+    <div class="sp__nav">
+      <h2 class="sp__nav--heading"><img class="sp__nav--img" src="logo.png" alt=""></h2>
+      <nav class="sp__nav--menu">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">FOOD MENU</a></li>
+          <li><a href="#">DRINK</a></li>
+          <li><a href="#">RESERVE</a></li>
+        </ul>
+      </nav>
+    </div><!-- /#gloval-nav -->
+      <!------------------------ 消すならここまで ---------------------->
+  </div>
+</header>

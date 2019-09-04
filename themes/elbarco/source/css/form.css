@@ -1,0 +1,135 @@
+
+.form {
+  width: 60%;
+  margin: 50px auto;
+}
+
+@media (max-width: 768px) {
+  .form {
+    width: 80%;
+  }
+}
+
+.form--label {
+  width: 100%;
+  padding: 0 0 1% 1%;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+.form--input, .form--textarea {
+  background: #f8f6f2;
+  font: 1em sans-serif;
+  width: 100%;
+  height: 30px;
+  font-size: 12px;
+  box-sizing: border-box;
+  border: 1px solid #e6dccf;
+  border-radius: 5px;
+  padding: 5px 5px;
+  outline: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  vertical-align: middle;
+  color: inherit;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+
+.form--textarea {
+  height: 100px;
+}
+
+.form--select {
+  outline: none;
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  background: none transparent;
+  vertical-align: middle;
+  font-size: 12px;
+  color: inherit;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 30px;
+  padding: 3px 12px;
+  border: 1px solid #e6dccf;
+  background: #f8f6f2;
+  border-radius: 5px;
+}
+
+.form--list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.form--radio--list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form--radio--txt {
+  padding: 0 19px;
+  font-size: 11px;
+}
+
+.form--radio--content {
+  margin: 5px 0px 20px 0;
+}
+
+.form--radio--content li {
+  padding: 0px 10px 0px 0;
+}
+
+.form--radio--content input[type="radio"] {
+  display: none;
+}
+
+.form--radio--content input[type="radio"]:checked + .form--label--reserve {
+  background: #6BBCC3;
+  color: #FFF;
+}
+
+.form--radio--content input[type="radio"]:checked + .form--label--request {
+  background: #f29491;
+  color: #FFF;
+}
+
+.form--radio--content input[type="radio"]:checked + .form--label--seat {
+  background: #9e9eff;
+  color: #FFF;
+}
+
+.form--radio--content input[type="radio"]:checked + .form--label--course1 {
+  background: #ffc489;
+  color: #FFF;
+}
+
+.form--radio--content input[type="radio"]:checked + .form--label--course2 {
+  background: #e6dccf;
+  color: #FFF;
+}
+
+.form--radio--content label {
+  color: #444;
+  border: 1px solid #E6DCCF;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 19px;
+  cursor: pointer;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+}
+
+.form--radio--reserve label {
+  margin-bottom: 10px;
+}

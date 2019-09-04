@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <%
+  var title = page.title;
+
+  if (is_archive()){
+    title = 'Archives';
+
+    if (is_month()){
+      title += ': ' + page.year + '/' + page.month;
+    } else if (is_year()){
+      title += ': ' + page.year;
+    }
+  } else if (is_category()){
+    title = 'Category: ' + page.category;
+  } else if (is_tag()){
+    title = 'Tag: ' + page.tag;
+  }
+  %>
+  <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
+  <meta name="viewport" content="width=device-width">
+  <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
+  <% if (theme.rss){ %>
+    <link rel="alternative" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
+  <% } %>
+  <% if (theme.favicon){ %>
+    <link rel="icon" href="<%- theme.favicon %>">
+  <% } %>
+  <%- css('bootstrap-3.3.7/css/bootstrap.min.css') %>
+  <%- css('css/main.css?B3') %>
+  <%- css('css/theme.css?A2') %>
+  <link href="<%- config.root %>css/main-sp.css?A1" rel="stylesheet" media="screen and (max-width: 480px)">
+  <%- css('css/top_scroll.css?A1') %>
+  <%- js('js/jquery-1.10.2.min.js') %>
+  <%- js('bootstrap-3.3.7/js/bootstrap.min.js') %>
+
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <%- partial('google-analytics') %>
+  <style>
+    div#div_head {
+      padding : 0px;
+      color: #fff;
+      margin: 0 0 0px;
+      width: 100%;
+      background : #9575CD;
+    }
+    div#div_img_main2 {
+      height: 300px;
+      color: #FFF;
+      margin: 0 0 0px;
+      width: 100%;
+      background:#ddd url(<%- config.root %>images/bill-2.jpg ) no-repeat center center;
+      background-size: cover;
+      text-align: center;
+    }
+  
+    </style>
+</head>
+<div id="div_navigate_index">
+    <div id="div_head" class="cover">
+        <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+          <a href="<%- config.root %>"><p><%= config.title %></p></a>
+          </div>
+          <div class="col-sm-8" style="text-align: right;">
+        <!-- nav -->	  
+        <div class='menubar'>
+          <ul class='menu text-border'>
+            <li><a href='#id_row_service'>サービス概要</a></li>
+            <li><a href='#id_row_sample'>導入事例</a></li>
+            <li><a href='<%- config.root %>categories/info/'>お知らせ</a></li>
+            <li><a href='<%- config.root %>categories/blog/'> Blog </a></li>
+          </ul>
+        </div>
+          </div>
+        </div>
+        
+        </div>
+      </div><!-- end_div_head -->
+      <!-- mobile-nav -->
+    <div id="nav-mobile" style="width:100%;">
+        <a class="toggle">
+         <span class="glyphicon glyphicon-menu-hamburger" style="font-size: 34px; color: #FFF"></span>
+        </a>
+        <div class="mobile-child">
+            <ul class='ul_mobile-child'>
+              <li class="mobile-menu-item"><a href='#id_row_service'>サービス概要</a></li>
+              <li class="mobile-menu-item"><a href='#id_row_sample'>導入事例</a></li>
+              <li class="mobile-menu-item"><a href='<%- config.root %>categories/info/'>お知らせ</a></li>
+              <li class="mobile-menu-item"><a href='<%- config.root %>categories/blog/'>Blog</a></li>
+            </ul>
+        </div>
+      </div>
+</div>
+<!--  nav-post  -->
+<div id="div_navigate_post">
+    <div id="div_head" class="cover">
+        <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+          <a href="<%- config.root %>"><p><%= config.title %></p></a>
+          </div>
+          <div class="col-sm-8" style="text-align: right;">
+          </div>
+        </div>
+        </div>
+    </div><!-- end_div_head -->
+</div>
+  

@@ -1,0 +1,42 @@
+
+<div class="div_news_rows" style="width:100%;">
+		<ul class="ul_time_box">
+			<li class="li_time_box"><span class="glyphicon glyphicon-home" style="font-size: 16px; float :left;"></span></li>
+			<li class="li_time_box"><p class="p_time_box">ホーム > </p></li>
+			<li class="li_time_box"><span class="glyphicon glyphicon-folder-close" style="font-size: 16px; float :left;"></span></li>
+			<li class="li_time_box">
+				<p class="p_time_box">
+					<%- partial('post/category') %>	
+				 <!-- <a href="http://localhost/wp2/category/news/" rel="category tag">news</a> -->
+				</p>
+			</li>		
+			<li class="li_time_box"><p class="p_time_box"> > <%= post.title %> </p></li>
+		</ul>
+
+		<h1 class="">&nbsp;<a  href="<%- config.root %><%- post.path %>"><%= post.title %></a>
+		</h1>
+
+		<div style="width:100%;">
+				<ul class="ul_time_box">
+					<li class="li_time_box"><span class="glyphicon glyphicon glyphicon-time" style="font-size: 16px; float :left;"></span></li>
+					<li class="li_time_box">
+						<p class="p_time_box">
+							<%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
+					  </p>
+					</li>
+				</ul>
+		</div>
+		<div class="entry-content">
+				<% if (post.excerpt && index){ %>
+					<%- post.excerpt %>
+					<% if (theme.excerpt_link){ %>
+						<p class="article-more-link">
+							<a href="<%- config.root %><%- post.path %>#more">[ <%= theme.excerpt_link %> ]</a>
+						</p>
+					<% } %>
+				<% } else { %>
+					<%- post.content %>
+				<% } %>
+			</div>
+		
+</div>

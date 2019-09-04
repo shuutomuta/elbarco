@@ -1,0 +1,48 @@
+<% if (pagination == 2){ %>
+  <% page.posts.each(function(post){ %>
+    <hr class="hr_ex1" />
+    <%- partial('article', {post: post, index: true}) %>
+  <% }) %>
+  <% if (page.total > 1){ %>
+    <nav id="page-nav">
+      <%- paginator({
+        prev_text: '&laquo; Prev',
+        next_text: 'Next &raquo;'
+      }) %>
+    </nav>
+  <% } %>
+<% } else { %>
+  <% page.posts.each(function(item){ %>
+    <div class="div_news_rows" style="width:100%;">
+        <span class="glyphicon glyphicon-circle-arrow-right" style="font-size: 28px; float :left;"></span>
+        <h3 class="">&nbsp;<a  href="<%- config.root %><%- item.path %>"><%= item.title %></a>
+        </h3>
+  
+    </div>
+    <div style="width:100%;">
+				<ul class="ul_time_box">
+					<li class="li_time_box"><span class="glyphicon glyphicon glyphicon-time" style="font-size: 16px; float :left;"></span></li>
+					<li class="li_time_box">
+						<p class="p_time_box">
+              <time datetime="<%= item.date.toDate().toISOString() %>"><a href="<%- config.root %><%- item.path %>"><%= item.date.format(config.date_format) %></a></time>
+            </p>
+          </li>
+				</ul>
+		</div>
+		<div class="entry-content">
+				<% if (item.excerpt ){ %>
+					<%- item.excerpt %>
+					<% if (theme.excerpt_link){ %>
+						<p class="article-more-link">
+							<a href="<%- config.root %><%- item.path %>#more">[ <%= theme.excerpt_link %> ]</a>
+						</p>
+					<% } %>
+				<% } else { %>
+					<%- item.content %>
+				<% } %>
+      </div>
+      <hr class="hr_ex1" />
+  <% }); %>
+
+  <!-- old -->
+<% } %>
