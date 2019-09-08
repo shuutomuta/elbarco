@@ -41,8 +41,10 @@
   <!-------------------------- SPを消したら.pc_onlyも消す ----------------------->
     <ul class="nav--menu">
       <li><a href="<%- config.root %>">HOME</a></li>
+      <li><a href="<%- config.root %>about">ABOUT</a></li>
       <li><a href="<%- config.root %>menu">MENU</a></li>
-      <li><a href="<%- config.root %>">TEL</a></li>
+      <li><a href="<%- config.root %>drink">DRINK</a></li>
+      <li><a href="<%- config.root %>contact">CONTACT</a></li>
     </ul>
   </nav>
 
@@ -57,14 +59,14 @@
     </div>
       
     <div class="sp__nav">
-      <h2 class="sp__nav--heading"><img class="sp__nav--img" src="logo.png" alt=""></h2>
+      <h2 class="sp__nav--heading"><img class="sp__nav--img" src="<%- config.root %>logo.png" alt=""></h2>
       <nav class="sp__nav--menu">
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">FOOD MENU</a></li>
-          <li><a href="#">DRINK</a></li>
-          <li><a href="#">RESERVE</a></li>
+          <li><a href="<%- config.root %>/">HOME</a></li>
+          <li><a href="<%- config.root %>about">ABOUT</a></li>
+          <li><a href="<%- config.root %>menu">FOOD MENU</a></li>
+          <li><a href="<%- config.root %>drink">DRINK</a></li>
+          <li><a href="<%- config.root %>contact">CONTACT</a></li>
         </ul>
       </nav>
     </div><!-- /#gloval-nav -->
