@@ -86,8 +86,6 @@ sitemap:
   tag: false
   category: false
 
-
-
 robotstxt:
   useragent: "*"
   disallow:
