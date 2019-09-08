@@ -85,6 +85,7 @@ a:hover {
 dd a{
   color: #000;
   font-family:"Noto Sans JP", sans-serif;
+  text-decoration: underline; 
 }
 
 ul {
