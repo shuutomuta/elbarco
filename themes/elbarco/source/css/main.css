@@ -124,6 +124,8 @@ header .nav {
 
 .nav--menu li a {
   color: #fff;
+  font-size: .8rem;
+  font-weight: normal;
 }
 
 .fixed {
