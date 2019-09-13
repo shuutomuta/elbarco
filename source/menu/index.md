@@ -5,28 +5,23 @@
     <div class="food--inner fadein">
       <h2 class="food__heading1"></h2>
       <div class="food__list--wrap">
+        <div class="food__img">
+          <img src="images/food1.jpg" alt="">
+          <img src="images/food2.jpg" alt="">
+        </div>
         <div class="food__list--area">
           <div class="food__list">
             <h3 class="food__list--heading1">今月のオススメ</h3>
             <div class="food__list--box">
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">とても辛いポテト　ブラバ風<span class="food__list--info">揚げポテトにピリッと辛いブラバソースをきかきせた料理。ビールに最適！</span></p>
                 <p class="food__list--price">¥680-</p>
               </div>
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">ガスパチョ（夏季のみ）<span class="food__list--info">この季節ならではの一品　当店で人気のメニュー</span></p>
                 <p class="food__list--price">¥700-</p>
               </div>
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">野菜の煮込み　ラマンチャ風<span class="food__list--info">パプリカ・ズッキーニなどの夏野菜をトマトと一緒に煮込んだ栄養満点の料理</span></p>
                 <p class="food__list--price">¥780-</p>
               </div>
@@ -36,27 +31,57 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="food--inner fadein">
+      <h2 class="food__heading1"></h2>
+      <div class="food__list--wrap">
+        <div class="food__img">
+          <img src="images/food1.jpg" alt="">
+          <img src="images/food2.jpg" alt="">
+        </div>
+        <div class="food__list--area">
+          <div class="food__list">
+            <h3 class="food__list--heading1">おまかせコース</h3>
+            <div class="food__list--box">
+              <div class="food__list--item">
+                <p class="food__list--name">スペイン風オムレツ<span class="food__list--info">スペイン独特のポテト入りオムレツ</span></p>
+                <p class="food__list--price">¥800-</p>
+              </div>
+              <div class="food__list--item">
+                <p class="food__list--name">ハモン・セラーノ<span class="food__list--info">ヘルシーなホーレン草入りのオムレツ</span></p>
+                <p class="food__list--price">¥850-</p>
+              </div>
+              <div class="food__list--item">
+                <p class="food__list--name">ウエボス・ア・ラ・フラメンカ<span class="food__list--info">卵と生ハム・チョリソのアンダルシア風オーブン焼</span></p>
+                <p class="food__list--price">¥850-</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="food--inner fadein">
+      <h2 class="food__heading1"></h2>
+      <div class="food__list--wrap">
+        <div class="food__img">
+          <img src="images/food1.jpg" alt="">
+          <img src="images/food2.jpg" alt="">
+        </div>
+        <div class="food__list--area">
           <div class="food__list">
             <h3 class="food__list--heading1">タパス</h3>
             <div class="food__list--box">
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">たこのマリネ<span class="food__list--info">たこをオリーブオイルとビネガーで味付けしたさっぱりとした前菜</span></p>
                 <p class="food__list--price">¥780-</p>
               </div>
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">スペアリブのワイン煮<span class="food__list--info">赤ワインとサルサ・エスパニョーラで柔らかく煮込んだスペアリブ</span></p>
                 <p class="food__list--price">¥950-</p>
               </div>
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">エスカルゴの辛味ソース煮<span class="food__list--info">赤唐辛子をピリッときかせたソースで仕上げたエスカルゴ</span></p>
                 <p class="food__list--price">¥1,000-</p>
               </div>
@@ -130,27 +155,29 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="food--inner fadein">
+      <h2 class="food__heading1"></h2>
+      <div class="food__list--wrap">
+        <div class="food__img">
+          <img src="images/food1.jpg" alt="">
+          <img src="images/food2.jpg" alt="">
+        </div>
+        <div class="food__list--area">
           <div class="food__list">
             <h3 class="food__list--heading1">パエーリャ</h3>
             <div class="food__list--box">
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">パエーリャ・バレンシアナ（2人前）</p>
                 <p class="food__list--price">¥3,600-</p>
               </div>
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">魚介類のパエーリャ（2人前）</p>
                 <p class="food__list--price">¥2,800-</p>
               </div>
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">イカ墨のパエーリャ（2人前）</p>
                 <p class="food__list--price">¥2,800-</p>
               </div>
@@ -164,27 +191,29 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="food--inner fadein">
+      <h2 class="food__heading1"></h2>
+      <div class="food__list--wrap">
+        <div class="food__img">
+          <img src="images/food1.jpg" alt="">
+          <img src="images/food2.jpg" alt="">
+        </div>
+        <div class="food__list--area">
           <div class="food__list">
             <h3 class="food__list--heading1">サラダ</h3>
             <div class="food__list--box">
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">ミックス・サラダ</p>
                 <p class="food__list--price">¥750-</p>
               </div>
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">レタスとトマトのサラダ</p>
                 <p class="food__list--price">¥700-</p>
               </div>
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">タコとポテトのサラダ</p>
                 <p class="food__list--price">¥680-</p>
               </div>
@@ -194,29 +223,31 @@
               </div>
             </div>
           </div>
-          <div class="food__list">
+        </div>
+      </div>
+    </div>
+    <div class="food--inner fadein">
+        <h2 class="food__heading1"></h2>
+        <div class="food__list--wrap">
+          <div class="food__img">
+            <img src="images/food1.jpg" alt="">
+            <img src="images/food2.jpg" alt="">
+          </div>
+          <div class="food__list--area">
+            <div class="food__list">
               <h3 class="food__list--heading1">魚・肉の料理</h3>
               <div class="food__list--box">
-                <div class="food__list--item food__list--item--recommend">
-                  <div class="food__list--img">
-                    <img src="../images/food1.jpg" alt="">
-                  </div>
+                <div class="food__list--item">
                   <p class="food__list--name">ヤリイカの墨煮　バスク風<span class="food__list--info">ヤリイカをその真っ黒な墨で煮込んだスペイン名物料理で、独特なこくと風味に定評があります。</span></p>
                   <p class="food__list--price">¥1,500-</p>
                 </div>
-                <div class="food__list--item food__list--item--recommend">
-                  <div class="food__list--img">
-                    <img src="../images/food1.jpg" alt="">
-                  </div>
+                <div class="food__list--item">
                   <p class="food__list--name">チャングーロ<span class="food__list--info">蟹のみそと身を甲羅に詰めてオーブンで焼いたバスク地方の珍味です。</span></p>
                   <p class="food__list--price">¥1,600-</p>
                 </div>
-                <div class="food__list--item food__list--item--recommend">
-                  <div class="food__list--img">
-                    <img src="../images/food1.jpg" alt="">
-                  </div>
+                <div class="food__list--item">
                   <p class="food__list--name">片口いわしのマリネ<span class="food__list--info">スペインで人気のある小イワシのマリネ</p>
-                    <p class="food__list--price">¥780-</p>
+                  <p class="food__list--price">¥780-</p>
                 </div>
                 <div class="food__list--item">
                   <p class="food__list--name">若鶏のチリンドロン・ソース煮（2人前）<span class="food__list--info">若鶏をチリンドロンソースで蒸し煮にしたナバーラ地方の代表的な料理です。</p>
@@ -236,27 +267,29 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    <div class="food--inner fadein">
+      <h2 class="food__heading1"></h2>
+      <div class="food__list--wrap">
+        <div class="food__img">
+          <img src="images/food1.jpg" alt="">
+          <img src="images/food2.jpg" alt="">
+        </div>
+        <div class="food__list--area">
           <div class="food__list">
             <h3 class="food__list--heading1">スープ</h3>
             <div class="food__list--box">
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">魚介系のスープ</p>
                 <p class="food__list--price">¥750-</p>
               </div>
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">カステーリャ風ニンニク・スープ</p>
                 <p class="food__list--price">¥680-</p>
               </div>
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">ガスパチョ（夏季のみ）<span class="food__list--info">アンダルシア風冷たい生野菜のスープ</span></p>
                 <p class="food__list--price">¥700-</p>
               </div>
@@ -266,53 +299,57 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="food--inner fadein">
+      <h2 class="food__heading1"></h2>
+      <div class="food__list--wrap">
+        <div class="food__img">
+          <img src="images/food1.jpg" alt="">
+          <img src="images/food2.jpg" alt="">
+        </div>
+        <div class="food__list--area">
           <div class="food__list">
-            <h3 class="food__list--heading1">サラダ</h3>
+            <h3 class="food__list--heading1">卵の料理</h3>
             <div class="food__list--box">
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">スペイン風オムレツ<span class="food__list--info">スペイン独特のポテト入りオムレツ</span></p>
                 <p class="food__list--price">¥800-</p>
               </div>
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">ハモン・セラーノ<span class="food__list--info">ヘルシーなホーレン草入りのオムレツ</span></p>
                 <p class="food__list--price">¥850-</p>
               </div>
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">ウエボス・ア・ラ・フラメンカ<span class="food__list--info">卵と生ハム・チョリソのアンダルシア風オーブン焼</span></p>
                 <p class="food__list--price">¥850-</p>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="food--inner fadein">
+      <h2 class="food__heading1"></h2>
+      <div class="food__list--wrap">
+        <div class="food__img">
+          <img src="images/food1.jpg" alt="">
+          <img src="images/food2.jpg" alt="">
+        </div>
+        <div class="food__list--area">
           <div class="food__list">
             <h3 class="food__list--heading1">デザート</h3>
             <div class="food__list--box">
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">クレマ・カタラナ<span class="food__list--info">キャラメルが香ばしい冷たいカスタードクリーム</span></p>
                 <p class="food__list--price">¥500-</p>
               </div>
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">アロス・コン・レチェ<span class="food__list--info">シナモンの香りがする冷たいお米のデザート</span></p>
                 <p class="food__list--price">¥450-</p>
               </div>
-              <div class="food__list--item food__list--item--recommend">
-                <div class="food__list--img">
-                  <img src="../images/food1.jpg" alt="">
-                </div>
+              <div class="food__list--item">
                 <p class="food__list--name">アイスクリーム<span class="food__list--info">チョコレートソースをかけたバニラアイス</span></p>
                 <p class="food__list--price">¥450-</p>
               </div>
