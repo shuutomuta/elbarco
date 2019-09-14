@@ -337,8 +337,8 @@
       <h2 class="food__heading1"></h2>
       <div class="food__list--wrap">
         <div class="food__img">
-          <img src="../images/food1.jpg" alt="">
-          <img src="../images/food2.jpg" alt="">
+          <img src="../images/food-16.jpg" alt="クレマ・カタラナ">
+          <img src="../images/food-17.jpg" alt="アロス・コン・レチェ">
         </div>
         <div class="food__list--area">
           <div class="food__list">

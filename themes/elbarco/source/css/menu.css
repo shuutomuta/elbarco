@@ -32,25 +32,25 @@ p {
 }
 
 .mv__menu{
-  background-image: url(../images/food-mv.jpg);
+  background-image: url(../images/food_title.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .mv__drink{
-  background-image: url(../images/drink-mv.jpg);
+  background-image: url(../images/drink_title.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .mv__about{
-  background-image: url(../images/about-mv.jpg);
+  background-image: url(../images/about_title.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .mv__contact{
-  background-image: url(../images/contact-mv.jpg);
+  background-image: url(../images/contact_title.jpg);
   background-size: cover;
   background-position: center;
 }
