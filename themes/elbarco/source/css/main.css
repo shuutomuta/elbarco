@@ -685,10 +685,15 @@ SPヘッダー
   }
 }
 
+.footer--logo{
+  width: 150px;
+  margin: 0 auto;
+}
+
 .footer--address {
   font-family: 'SabonLTPro-Italic', "serif";
-  margin: 40px 0;
-  padding-bottom: 40px;
+  margin: 20px 0 40px;
+  padding-bottom: 20px;
   border-bottom: 1px solid #7C7C7C;
   font-size: calc(1rem + ((1vw - 12px) * 1.1048));
 }
