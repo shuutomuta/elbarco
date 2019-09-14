@@ -115,6 +115,12 @@ p {
   font-size: .95rem;
 }
 
+@media (max-width: 768px) {
+  .food__list--name {
+    padding: 0 5% 0 0;
+  }
+}
+
 .food__list--info {
   display: block;
   font-size: 0.7rem;
