@@ -1,6 +1,5 @@
-
-  <div class="mv__menu">
-    <h2 class="mv__menu--heading">food</h2>
+  <div class="mv__drink mv__content">
+    <h2 class="mv__content--heading">DRINK</h2>
   </div>
 
   <section class="drink">

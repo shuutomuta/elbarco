@@ -1,5 +1,5 @@
-  <div class="mv__menu">
-    <h2 class="mv__menu--heading">food</h2>
+  <div class="mv__menu mv__content">
+    <h2 class="mv__content--heading">FOOD</h2>
   </div>
   <section class="food">
     <div class="food--inner fadein">

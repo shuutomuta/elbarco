@@ -2,17 +2,14 @@ p {
   color: #242424;
 }
 
-.mv__menu {
+.mv__content{
   position: relative;
   height: 60vh;
   width: 100%;
   margin-bottom: 60px;
-  background-image: url(../images/food-mv.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
-.mv__menu::after {
+.mv__content::after {
   content: "";
   position: absolute;
   top: 0;
@@ -22,7 +19,7 @@ p {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.mv__menu--heading {
+.mv__content--heading {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -32,6 +29,18 @@ p {
   font-size: calc(1rem + ((2vw - 6.6px) * 1.1048));
   color: #fff;
   z-index: 100;
+}
+
+.mv__menu{
+  background-image: url(../images/food-mv.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.mv__drink{
+  background-image: url(../images/drink-mv.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 
