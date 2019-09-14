@@ -28,6 +28,14 @@ $(function () {
 
 });
 
+function doPost(){
+  $("input[name=submitBtn]").click();
+  if (form.checkValidity()){
+    SendDummy();
+  }else{
+  }
+}
+
 function SendDummy(){
   document.getElementById('formWrapper').style.display = 'none';
   document.getElementById('thxMessage').style.display = 'block';

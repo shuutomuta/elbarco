@@ -43,6 +43,18 @@ p {
   background-position: center;
 }
 
+.mv__about{
+  background-image: url(../images/about-mv.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.mv__contact{
+  background-image: url(../images/contact-mv.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 
 .food__list--wrap {
   display: flex;
