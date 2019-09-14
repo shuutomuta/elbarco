@@ -25,11 +25,9 @@
 
 .TopLink{
   width: 200px;
-  margin: 0 auto;
+  margin: 40px auto;
   display: block;
   color: #000000;
-  margin-top:40px;
-  margin-left:10px;
   font-size:10px;
   text-align:center;
   font-family: "Roboto Condensed", "Noto Sans JP", sans-serif;
