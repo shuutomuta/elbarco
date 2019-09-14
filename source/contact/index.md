@@ -1,5 +1,5 @@
-<div class="mv__menu">
-  <h2 class="mv__menu--heading">contact</h2>
+<div class="mv__contact mv__content">
+  <h2 class="mv__content--heading">CONTACT</h2>
 </div>
 
 <div id="formWrapper">

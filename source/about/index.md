@@ -1,4 +1,3 @@
----
-title: about
-date: 2019-08-15 00:03:18
----
+  <div class="mv__about mv__content">
+    <h2 class="mv__content--heading">ABOUT</h2>
+  </div>
