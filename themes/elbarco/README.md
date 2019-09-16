@@ -1,20 +1,16 @@
 ﻿# theme_ex3
 
- Version: 0.9.1
+ Version: 0.1
 
- Author  : Kouji Nakashima / kuc-arc-f.com
+ Author  : shuto muta
 
- date    : 2018/07/02
+ date    : 2019/09/15
 
 ***
-
-hexo  cutom theme, bootstrap + CSS3
 
 
 ***
 ### blog
-
-https://knaka0209.hatenablog.com/entry/hexo-3
 
 ***
 
