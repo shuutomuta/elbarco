@@ -1,3 +1,7 @@
+---
+description: 'descriptionに設定したい文章をここに'
+---
+
 <div class="mv__contact mv__content">
   <h2 class="mv__content--heading">CONTACT</h2>
 </div>
