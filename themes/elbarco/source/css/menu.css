@@ -75,7 +75,7 @@ p {
 @media (max-width: 768px) {
   .food__img {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 }
 
