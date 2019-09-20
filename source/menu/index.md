@@ -361,7 +361,7 @@ description: 'descriptionに設定したい文章をここに'
                 <p class="food__list--price">¥450-</p>
               </div>
               <div class="food__list--item">
-                <p class="food__list--name">シャーベット<span class="food__list--info">ブラッドオレンジのシャーベットに移設のフルーツをトッピング。レッドオレンジ色がきれいです。</span></p>
+                <p class="food__list--name">シャーベット<span class="food__list--info">ブラッドオレンジのシャーベットに季節のフルーツをトッピング。レッドオレンジ色がきれいです。</span></p>
                 <p class="food__list--price">¥550-</p>
               </div>
             </div>
