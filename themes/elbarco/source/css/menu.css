@@ -83,7 +83,7 @@ p {
   .food__img--item {
     padding-bottom: 20px;
   }
-  .food__img--item;last-child {
+  .food__img--item:last-child {
     padding-bottom: 20px;
   }
 }
