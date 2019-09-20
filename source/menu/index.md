@@ -6,7 +6,7 @@ description: 'descriptionに設定したい文章をここに'
     <h2 class="mv__content--heading">FOOD</h2>
   </div>
   <section class="food">
-    <!-- <div class="food--inner fadein">
+    <div class="food--inner fadein">
       <h2 class="food__heading1"></h2>
       <div class="food__list--wrap">
         <div class="food__img">
@@ -37,7 +37,7 @@ description: 'descriptionに設定したい文章をここに'
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <!-- <div class="food--inner fadein">
       <h2 class="food__heading1"></h2>
       <div class="food__list--wrap">
