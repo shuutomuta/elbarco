@@ -261,7 +261,7 @@ description: 'descriptionに設定したい文章をここに'
                   <p class="food__list--price">¥1,800-</p>
                 </div>
                 <div class="food__list--item">
-                  <p class="food__list--name">和牛ロース・ソテー モホロビコンソース添え<span class="food__list--info">和牛ロースを強火でソテーして、ニンニクのきいたモホビロコンソースを添えます。</p>
+                  <p class="food__list--name">和牛ロース・ソテー モホピコンソース添え<span class="food__list--info">和牛ロースを強火でソテーして、ニンニクのきいたモホピコンソースを添えます。</p>
                   <p class="food__list--price">¥2,500-</p>
                 </div>
                 <div class="food__list--item">
