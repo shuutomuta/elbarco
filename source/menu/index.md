@@ -10,8 +10,8 @@ description: 'descriptionに設定したい文章をここに'
       <h2 class="food__heading1"></h2>
       <div class="food__list--wrap">
         <div class="food__img">
-          <img src="../images/food1.jpg" alt="">
-          <img src="../images/food2.jpg" alt="">
+          <img src="../images/food-01.jpg" alt="">
+          <img src="../images/food-02.jpg" alt="">
         </div>
         <div class="food__list--area">
           <div class="food__list">
