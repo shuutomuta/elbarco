@@ -10,8 +10,8 @@ description: 'descriptionに設定したい文章をここに'
       <h2 class="food__heading1"></h2>
       <div class="food__list--wrap">
         <div class="food__img">
-          <img src="../images/food-01.jpg" alt="">
-          <img src="../images/food-02.jpg" alt="">
+          <img class="food__img--item" src="../images/food-01.jpg" alt="">
+          <img class="food__img--item" src="../images/food-02.jpg" alt="">
         </div>
         <div class="food__list--area">
           <div class="food__list">
@@ -70,10 +70,10 @@ description: 'descriptionに設定したい文章をここに'
       <h2 class="food__heading1"></h2>
       <div class="food__list--wrap">
         <div class="food__img">
-          <img src="../images/food-03.jpg" alt="ハモン・セラーノ">
-          <img src="../images/food-04.jpg" alt="真だこのガリシア風">
-          <img src="../images/food-05.jpg" alt="小海老のニンニク・ソテー">
-          <img src="../images/food-06.jpg" alt="マッシュルームのセゴビア風">
+          <img class="food__img--item" src="../images/food-03.jpg" alt="ハモン・セラーノ">
+          <img class="food__img--item" src="../images/food-04.jpg" alt="真だこのガリシア風">
+          <img class="food__img--item" src="../images/food-05.jpg" alt="小海老のニンニク・ソテー">
+          <img class="food__img--item" src="../images/food-06.jpg" alt="マッシュルームのセゴビア風">
         </div>
         <div class="food__list--area">
           <div class="food__list">
@@ -168,8 +168,8 @@ description: 'descriptionに設定したい文章をここに'
       <h2 class="food__heading1"></h2>
       <div class="food__list--wrap">
         <div class="food__img">
-          <img src="../images/food-07.jpg" alt="魚介類のパエーリャ（2人前）">
-          <img src="../images/food-08.jpg" alt="イカ墨のパエーリャ（2人前）">
+          <img class="food__img--item" src="../images/food-07.jpg" alt="魚介類のパエーリャ（2人前）">
+          <img class="food__img--item" src="../images/food-08.jpg" alt="イカ墨のパエーリャ（2人前）">
         </div>
         <div class="food__list--area">
           <div class="food__list">
@@ -204,9 +204,9 @@ description: 'descriptionに設定したい文章をここに'
       <h2 class="food__heading1"></h2>
       <div class="food__list--wrap">
         <div class="food__img">
-          <img src="../images/food-09.jpg" alt="ミックス・サラダ">
-          <img src="../images/food-10.jpg" alt="タコとポテトのサラダ">
-          <img src="../images/food-11.jpg" alt="魚介類のサラダ">
+          <img class="food__img--item" src="../images/food-09.jpg" alt="ミックス・サラダ">
+          <img class="food__img--item" src="../images/food-10.jpg" alt="タコとポテトのサラダ">
+          <img class="food__img--item" src="../images/food-11.jpg" alt="魚介類のサラダ">
         </div>
         <div class="food__list--area">
           <div class="food__list">
@@ -237,8 +237,8 @@ description: 'descriptionに設定したい文章をここに'
         <h2 class="food__heading1"></h2>
         <div class="food__list--wrap">
           <div class="food__img">
-            <img src="../images/food-12.jpg" alt="若鶏のチリンドロン・ソース煮（2人前）">
-            <img src="../images/food-13.jpg" alt="エンパナーダ">
+            <img class="food__img--item" src="../images/food-12.jpg" alt="若鶏のチリンドロン・ソース煮（2人前）">
+            <img class="food__img--item" src="../images/food-13.jpg" alt="エンパナーダ">
           </div>
           <div class="food__list--area">
             <div class="food__list">
@@ -341,8 +341,8 @@ description: 'descriptionに設定したい文章をここに'
       <h2 class="food__heading1"></h2>
       <div class="food__list--wrap">
         <div class="food__img">
-          <img src="../images/food-16.jpg" alt="クレマ・カタラナ">
-          <img src="../images/food-17.jpg" alt="アロス・コン・レチェ">
+          <img class="food__img--item" src="../images/food-16.jpg" alt="クレマ・カタラナ">
+          <img class="food__img--item" src="../images/food-17.jpg" alt="アロス・コン・レチェ">
         </div>
         <div class="food__list--area">
           <div class="food__list">

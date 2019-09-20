@@ -79,6 +79,15 @@ p {
   }
 }
 
+@media (max-width: 768px) {
+  .food__img--item {
+    padding-bottom: 20px;
+  }
+  .food__img--item;last-child {
+    padding-bottom: 20px;
+  }
+}
+
 .food__list--area {
   width: 50%;
   display: flex;
