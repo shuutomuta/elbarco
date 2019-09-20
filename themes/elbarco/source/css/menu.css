@@ -79,6 +79,12 @@ p {
   }
 }
 
+.food__img--item {
+  margin-bottom: 20px;
+  background-image: url(/images/bg.jpg);
+  background-size: cover;
+}
+
 @media (max-width: 768px) {
   .food__img--item {
     margin-bottom: 20px;
