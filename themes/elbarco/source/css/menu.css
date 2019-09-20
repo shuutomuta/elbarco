@@ -81,10 +81,7 @@ p {
 
 @media (max-width: 768px) {
   .food__img--item {
-    padding-bottom: 20px;
-  }
-  .food__img--item:last-child {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 
