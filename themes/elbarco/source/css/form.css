@@ -18,9 +18,6 @@
   font-family: "Roboto Condensed", "Noto Sans JP", sans-serif;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
 }
 
 .TopLink{
@@ -33,9 +30,6 @@
   font-family: "Roboto Condensed", "Noto Sans JP", sans-serif;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
   padding: 1em 2em;
   border-radius: 1em;
   text-decoration: none;
