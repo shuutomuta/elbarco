@@ -25,9 +25,7 @@ $(function () {
     $('#nav__toggle').on('click', function() {
       $('body').toggleClass('open');
     });
-
 });
-
 function doPost(){
   $("input[name=submitBtn]").click();
   if (form.checkValidity()){
@@ -35,7 +33,6 @@ function doPost(){
   }else{
   }
 }
-
 function SendDummy(){
   document.getElementById('formWrapper').style.display = 'none';
   document.getElementById('thxMessage').style.display = 'block';
