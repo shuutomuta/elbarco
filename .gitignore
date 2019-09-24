@@ -1,4 +1,7 @@
+.DS_Store
 node_modules/
 db.json
 .deploy_git/
 .deploy/
+yarn.lock
+package-lock.json
