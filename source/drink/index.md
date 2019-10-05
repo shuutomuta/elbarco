@@ -1,5 +1,5 @@
 ---
-description: 'descriptionに設定したい文章をここに'
+description: 'エルバルコのドリンクメニュー'
 ---
 
   <div class="mv__drink mv__content">

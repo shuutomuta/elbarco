@@ -1,5 +1,5 @@
 ---
-description: 'descriptionに設定したい文章をここに'
+description: 'エルバルコについて'
 ---
 
   <div class="mv__about mv__content">
