@@ -17,15 +17,15 @@ description: 'エルバルコへのお問い合わせ'
               <ul>
                 <li class="form--radio--content">
                 <input type="radio" name="entry.153226148" id="select3" value="席のみ" class="form--input" checked = "checked">
-                <label for="select3" class="sex_radio_select3 form--label form--select">席のみ</label>
+                <label for="select3" class="form--label--seat form--label form--radio--txt">席のみ</label>
                 </li>
                 <li class="form--radio--content">
                 <input type="radio" name="entry.153226148" id="select1" value="パエーリャコース" class="form--input">
-                <label for="select1" class="sex_radio_select1 form--label form--select">パエーリャコース ￥3,500</label>
+                <label for="select1" class="form--label--course1 form--label form--radio--txt">パエーリャコース ￥3,500</label>
                 </li>
                 <li class="form--radio--content">
                 <input type="radio" name="entry.153226148" id="select2" value="エスペシャルコース" class="form--input">
-                <label for="select2" class="sex_radio_select2 form--label form--select">エスペシャルコース ￥6,500</label>
+                <label for="select2" class="form--label--course2 form--label form--radio--txt">エスペシャルコース ￥6,500</label>
                 </li>
               </ul>
             </div>
