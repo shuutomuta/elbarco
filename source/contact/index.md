@@ -6,9 +6,9 @@ description: 'エルバルコへのお問い合わせ'
   <h2 class="mv__content--heading">CONTACT</h2>
 </div>
 
-<div id = "formWrapper">
+<div id="formWrapper">
   <div class="form__area">
-    <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSf2cqqIeZdyxTlekW_DC4-z6DsoW6olILqewxiGylNtmpYPqg/formResponse" id = "form" name = "myform" class = "form" target = "dummyIframe">
+    <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSf2cqqIeZdyxTlekW_DC4-z6DsoW6olILqewxiGylNtmpYPqg/formResponse" id="form" name="myform" class="form" target="dummyIframe">
       <ul>
         <li class="form--list">
           <label for="name" class="form--label">ご予約内容 *</label>
@@ -59,17 +59,17 @@ description: 'エルバルコへのお問い合わせ'
         </li>
         <li class="form--list">
           <input type="button" class ="form--button" value="送信する" onclick = "doPost();">
-          <input type="submit" value="不可視ボタン"  style="display:none" name=submitBtn>
+          <input type="submit" value="不可視ボタン" style="display:none" name=submitBtn>
         </li>
       </ul>
     </form>
-  <iframe name= "dummyIframe" style = "display:none;"></iframe>
+  <iframe name="dummyIframe" style="display:none;"></iframe>
   </div>
 </div>
 
 <div id="thxMessage" style="display:none;">
-  <div class ="ThxMessage">
+  <div class="ThxMessage">
     お問い合わせありがとうございました。
   </div>
-  <a class = "TopLink" href="https://elbarco.jp/">トップページへ戻る</a>
+  <a class="TopLink" href="https://elbarco.jp/">トップページへ戻る</a>
 </div>
