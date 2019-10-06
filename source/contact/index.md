@@ -31,7 +31,7 @@ description: 'エルバルコへのお問い合わせ'
         </li>
         <li class="form--list">
           <label for="" class="form--label">御予約人数*<br class="sp_only">（御予約の場合は記載してください。）</label>
-          <select name="entry.1350566039" class="select form--select">
+          <select name="entry.1350566039" class="select form--select" style="height: 10px;">
             <option value="">-</option>
             <option value="1人">1</option>
             <option value="2人">2</option>
