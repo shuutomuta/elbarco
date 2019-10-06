@@ -8,7 +8,7 @@ description: 'エルバルコ のメニュー'
   <section class="food">
     <div class="food--inner fadein">
       <h2 class="food__heading1"></h2>
-      <div class="food__list--wrap">
+      <div class="food__list--wrap food__list__recommend">
         <div class="food__img">
           <img class="food__img--item" src="../images/food-01.jpg" alt="豚ロースのオリーブソース　アンダルシア風">
           <img class="food__img--item" src="../images/food-02.jpg" alt="ガスパチョ（夏季のみ）">

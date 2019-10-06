@@ -69,6 +69,9 @@ p {
 .food__img--item {
   margin-bottom: 10px;
 }
+.food__list__recommend{
+  align-items: center;
+}
 .food__list--area {
   width: 50%;
   display: flex;
