@@ -16,7 +16,7 @@ description: 'エルバルコへのお問い合わせ'
             <div class="sex_radio">
               <ul>
                 <li>
-                <input type="radio" name="entry.153226148" id="select3" value="席のみ" class="form--input" checked = "checked">
+                <input type="radio" name="entry.153226148" id="select3" value="席のみ" class="form--input form--radio--content" checked = "checked">
                 <label for="select3" class="sex_radio_select3 form--label">席のみ</label>
                 </li>
                 <li>
