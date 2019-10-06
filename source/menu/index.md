@@ -261,11 +261,11 @@ description: 'エルバルコ のメニュー'
                   <p class="food__list--price">¥1,800-</p>
                 </div>
                 <div class="food__list--item">
-                  <p class="food__list--name">和牛ロース・ソテー モホピコンソース添え<span class="food__list--info">和牛ロースを強火でソテーして、ニンニクのきいたモホピコンソースを添えます。</p>
+                  <p class="food__list--name">牛ロース・ソテー モホピコンソース添え<span class="food__list--info">牛ロースを強火でソテーして、ニンニクのきいたモホピコンソースを添えます。</p>
                   <p class="food__list--price">¥2,500-</p>
                 </div>
                 <div class="food__list--item">
-                  <p class="food__list--name">和牛ロースのブラックペッパー・クリーム煮<span class="food__list--info">ソテーした和牛ロースをブラックペッパーのきいたクリームソースで煮込んだ、アストリア地方の肉料理。</p>
+                  <p class="food__list--name">牛ロースのブラックペッパー・クリーム煮<span class="food__list--info">ソテーした牛ロースをブラックペッパーのきいたクリームソースで煮込んだ、アストリア地方の肉料理。</p>
                   <p class="food__list--price">¥2,500-</p>
                 </div>
                 <div class="food__list--item">
