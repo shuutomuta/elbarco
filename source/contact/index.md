@@ -43,7 +43,7 @@ description: 'エルバルコへのお問い合わせ'
         </li>
         <li class="form--list">
           <label for="day" class="form--label">ご予約予定日 *</label>
-          <input type="date" id="day" name="entry.998286514" class="form--input" required>
+          <input type="date" id="day" name="entry.998286514" class="form--input" style="height: 30px;" required>
         </li>
         <li class="form--list">
           <label for="name" class="form--label">名前 *</label>
