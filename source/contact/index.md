@@ -13,7 +13,7 @@ description: 'エルバルコへのお問い合わせ'
         <li class="form--list">
           <label for="name" class="form--label">ご予約内容 *</label>
           <div class="sex_area">
-            <div class="sex_radio">
+            <div class="form--radio--content">
               <ul>
                 <li class="form--radio--content">
                 <input type="radio" name="entry.153226148" id="select3" value="席のみ" class="form--input" checked = "checked">
