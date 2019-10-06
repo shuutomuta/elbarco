@@ -12,23 +12,21 @@ description: 'エルバルコへのお問い合わせ'
       <ul>
         <li class="form--list">
           <label for="name" class="form--label">ご予約内容 *</label>
-          <div class="sex_area">
-            <div class="form--radio--content">
-              <ul class="form--radio--list">
-                <li class="form--radio--content">
-                <input type="radio" name="entry.153226148" id="select3" value="席のみ" class="form--input" checked = "checked">
-                <label for="select3" class="form--label--seat form--label form--radio--txt">席のみ</label>
-                </li>
-                <li class="form--radio--content">
-                <input type="radio" name="entry.153226148" id="select1" value="パエーリャコース" class="form--input">
-                <label for="select1" class="form--label--course1 form--label form--radio--txt">パエーリャコース ￥3,500</label>
-                </li>
-                <li class="form--radio--content">
-                <input type="radio" name="entry.153226148" id="select2" value="エスペシャルコース" class="form--input">
-                <label for="select2" class="form--label--course2 form--label form--radio--txt">エスペシャルコース ￥6,500</label>
-                </li>
-              </ul>
-            </div>
+          <div>
+            <ul class="form--radio--list">
+              <li class="form--radio--content">
+              <input type="radio" name="entry.153226148" id="select3" value="席のみ" class="form--input" checked = "checked">
+              <label for="select3" class="form--label--seat form--label form--radio--txt">席のみ</label>
+              </li>
+              <li class="form--radio--content">
+              <input type="radio" name="entry.153226148" id="select1" value="パエーリャコース" class="form--input">
+              <label for="select1" class="form--label--course1 form--label form--radio--txt">パエーリャコース ￥3,500</label>
+              </li>
+              <li class="form--radio--content">
+              <input type="radio" name="entry.153226148" id="select2" value="エスペシャルコース" class="form--input">
+              <label for="select2" class="form--label--course2 form--label form--radio--txt">エスペシャルコース ￥6,500</label>
+              </li>
+            </ul>
           </div>
         </li>
         <li class="form--list">
