@@ -13,24 +13,24 @@ $(function () {
 
   jQuery(window).scroll(function (){
     jQuery('.fadein').each(function(){
-        var elemPos = jQuery(this).offset().top;
-        var scroll = jQuery(window).scrollTop();
-        var windowHeight = jQuery(window).height();
-        if (scroll > elemPos - windowHeight + 100){
-            jQuery(this).addClass('scrollin');
-        }
+      var elemPos = jQuery(this).offset().top;
+      var scroll = jQuery(window).scrollTop();
+      var windowHeight = jQuery(window).height();
+      if (scroll > elemPos - windowHeight + 90){
+        jQuery(this).addClass('scrollin');
+      }
     });
   });
 
-    $('#nav__toggle').on('click', function() {
-      $('body').toggleClass('open');
-    });
+  $('#nav__toggle').on('click', function() {
+    $('body').toggleClass('open');
+  });
 });
 function doPost(){
   $("input[name=submitBtn]").click();
-  if (form.checkValidity()){
-    SendDummy();
-  }else{
+    if (form.checkValidity()){
+      SendDummy();
+    }else{
   }
 }
 function SendDummy(){
