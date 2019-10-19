@@ -1,12 +1,12 @@
 $(function () {
   var headNav = $("header");
 	$(window).on('load scroll', function () {
-		if($(this).scrollTop() > 300 && headNav.hasClass('fixed') == false) {
+		if($(this).scrollTop() > 200 && headNav.hasClass('fixed') == false) {
 			headNav.css({"top": '-100px'});
 			headNav.addClass('fixed');
-			headNav.animate({"top": 0},400);
+			headNav.animate({"top": 0},300);
 		}
-		else if($(this).scrollTop() < 200 && headNav.hasClass('fixed') == true){
+		else if($(this).scrollTop() < 100 && headNav.hasClass('fixed') == true){
 			headNav.removeClass('fixed');
 		}
   });
