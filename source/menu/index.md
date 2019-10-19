@@ -3,7 +3,7 @@ description: 'エルバルコ のメニュー'
 ---
 
   <div class="mv__menu mv__content">
-    <h2 class="mv__content--heading">FOOD</h2>
+    <h2 class="mv__content--heading">メニュー</h2>
   </div>
   <section class="food">
     <div class="food--inner fadein">
