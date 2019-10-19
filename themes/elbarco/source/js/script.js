@@ -16,7 +16,7 @@ $(function () {
       var elemPos = jQuery(this).offset().top;
       var scroll = jQuery(window).scrollTop();
       var windowHeight = jQuery(window).height();
-      if (scroll > elemPos - windowHeight + 90){
+      if (scroll > elemPos - windowHeight +110){
         jQuery(this).addClass('scrollin');
       }
     });
