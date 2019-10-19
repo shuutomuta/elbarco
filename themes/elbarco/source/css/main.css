@@ -223,6 +223,7 @@ SPヘッダー スタート
   text-decoration: none;
   padding: 10px 0;
   transition: color .6s ease;
+  font-size: 24px;
 }
 .sp__nav a:hover {
   color: #666;
