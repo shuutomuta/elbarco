@@ -1,7 +1,6 @@
 ---
 description: 'エルバルコのドリンクメニュー'
 ---
-
   <div class="mv__drink mv__content">
     <h2 class="mv__content--heading">ドリンク</h2>
   </div>
