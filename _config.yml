@@ -78,6 +78,4 @@ robotstxt:
     - /js/
     - /_posts/
   allow:
-  sitemap: /sitemap.xml
-
-
+  sitemap: https://elbarco.jp/sitemap.xml
