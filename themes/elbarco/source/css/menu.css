@@ -141,6 +141,7 @@ p {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
 }
 @media (max-width: 768px) {
   .drink__list--area {
@@ -159,6 +160,7 @@ p {
 .drink__list--box {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .drink__list--item {
   width: 30%;
