@@ -2,7 +2,7 @@
 description: 'エルバルコへのお問い合わせ'
 ---
 <div class="mv__contact mv__content">
-  <h2 class="mv__content--heading">お問い合わせ</h2>
+  <h2 class="mv__content--heading">CONTACT</h2>
 </div>
 
 <div id="formWrapper">

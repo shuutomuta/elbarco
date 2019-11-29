@@ -2,7 +2,7 @@
 description: 'エルバルコについて'
 ---
   <div class="mv__about mv__content">
-    <h2 class="mv__content--heading">当店について</h2>
+    <h2 class="mv__content--heading">ABOUT</h2>
   </div>
   <p class="about__txt">創業29年。<br><br>
   スペインのRestauranteの味と雰囲気を日本に運びたい、<br>
