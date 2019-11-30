@@ -50,7 +50,8 @@ description: 'エルバルコのドリンクメニュー'
           <div class="drink__list">
             <h3 class="drink__list--heading1">自家製サングリア（Sangria）</h3>
             <div class="drink__list--box">
-              <p class="drink__list--name">¥400〜</p>
+              <p class="drink__list--name">グラス：各種¥400〜</p>
+              <p class="drink__list--name">壺：各種¥2,800〜</p>
             </div>
           </div>
           <div class="drink__list">

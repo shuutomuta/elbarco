@@ -608,3 +608,25 @@ SPヘッダー 終わり
     margin-bottom: 30px;
   }
 }
+.about__movie{
+  text-align: center;
+  width: 60%;
+  margin: 0 auto 5%;
+}
+@media (max-width: 768px) {
+  .about__movie{
+    width: 95%;
+    margin: 0 auto 5%;
+  }
+}
+.about__movie iframe{
+  width: 100%;
+  margin: 0 auto;
+  height: 350px;
+}
+@media (max-width: 768px) {
+  .about__movie iframe{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
