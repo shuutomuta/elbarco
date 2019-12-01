@@ -1,6 +1,7 @@
 ---
 description: 'エルバルコへのお問い合わせ'
 ---
+
 <div class="mv__contact mv__content">
   <h2 class="mv__content--heading">CONTACT</h2>
 </div>
@@ -18,12 +19,16 @@ description: 'エルバルコへのお問い合わせ'
               <label for="select3" class="form--label--seat form--label form--radio--txt">席のみ</label>
               </li>
               <li class="form--radio--content">
-              <input type="radio" name="entry.153226148" id="select1" value="パエーリャコース" class="form--input">
-              <label for="select1" class="form--label--course1 form--label form--radio--txt">パエーリャコース ￥3,500</label>
+              <input type="radio" name="entry.153226148" id="select4" value="パエーリャコースA" class="form--input">
+              <label for="select4" class="form--label--course1 form--label form--radio--txt">パエーリャコースA ￥2,500</label>
               </li>
               <li class="form--radio--content">
-              <input type="radio" name="entry.153226148" id="select2" value="エスペシャルコース" class="form--input">
-              <label for="select2" class="form--label--course2 form--label form--radio--txt">エスペシャルコース ￥6,500</label>
+              <input type="radio" name="entry.153226148" id="select1" value="パエーリャコースB" class="form--input">
+              <label for="select1" class="form--label--course1 form--label form--radio--txt">パエーリャコースB ￥3,500</label>
+              </li>
+              <li class="form--radio--content">
+              <input type="radio" name="entry.153226148" id="select2" value="パエーリャコースS" class="form--input">
+              <label for="select2" class="form--label--course1 form--label form--radio--txt">パエーリャコースS ￥5,000</label>
               </li>
             </ul>
           </div>
@@ -42,6 +47,7 @@ description: 'エルバルコへのお問い合わせ'
         </li>
         <li class="form--list">
           <label for="day" class="form--label">ご予約予定日 *</label>
+          <label for "day" class="form--label"> ※12月30日から1月3日までお休み頂きます。</label>
           <input type="date" id="day" name="entry.998286514" class="form--input" style="height: 30px;" required>
         </li>
         <li class="form--list">
