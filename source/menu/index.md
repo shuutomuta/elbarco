@@ -7,66 +7,6 @@ description: 'エルバルコ のメニュー'
   <section class="food">
     <div class="food--inner fadein">
       <h2 class="food__heading1"></h2>
-      <div class="food__list--wrap food__list__recommend">
-        <div class="food__img">
-          <img class="food__img--item" src="../images/food-01.jpg" alt="豚ロースのオリーブソース　アンダルシア風">
-          <img class="food__img--item" src="../images/food-02.jpg" alt="ガスパチョ（夏季のみ）">
-        </div>
-        <div class="food__list--area">
-          <div class="food__list">
-            <h3 class="food__list--heading1">今月のオススメ</h3>
-            <div class="food__list--box">
-              <div class="food__list--item">
-                <p class="food__list--name">とても辛いポテト　ブラバ風<span class="food__list--info">揚げポテトにピリッと辛いブラバソースをきかきせた料理。ビールに最適！</span></p>
-                <p class="food__list--price">¥680-</p>
-              </div>
-              <div class="food__list--item">
-                <p class="food__list--name">ガスパチョ（夏季のみ）<span class="food__list--info">この季節ならではの一品　当店で人気のメニュー</span></p>
-                <p class="food__list--price">¥700-</p>
-              </div>
-              <div class="food__list--item">
-                <p class="food__list--name">野菜の煮込み　ラマンチャ風<span class="food__list--info">パプリカ・ズッキーニなどの夏野菜をトマトと一緒に煮込んだ栄養満点の料理</span></p>
-                <p class="food__list--price">¥780-</p>
-              </div>
-              <div class="food__list--item">
-                <p class="food__list--name">豚ロースのオリーブソース　アンダルシア風<span class="food__list--info">豚ロースをソテーしてブラックオリーブブラックオリーブソースで絡ませた夏向きの料理</span></p>
-                <p class="food__list--price">¥1,200-</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- <div class="food--inner fadein">
-      <h2 class="food__heading1"></h2>
-      <div class="food__list--wrap">
-        <div class="food__img">
-          <img src="../images/food1.jpg" alt="">
-          <img src="../images/food2.jpg" alt="">
-        </div>
-        <div class="food__list--area">
-          <div class="food__list">
-            <h3 class="food__list--heading1">おまかせコース</h3>
-            <div class="food__list--box">
-              <div class="food__list--item">
-                <p class="food__list--name">スペイン風オムレツ<span class="food__list--info">スペイン独特のポテト入りオムレツ</span></p>
-                <p class="food__list--price">¥800-</p>
-              </div>
-              <div class="food__list--item">
-                <p class="food__list--name">ハモン・セラーノ<span class="food__list--info">ヘルシーなホーレン草入りのオムレツ</span></p>
-                <p class="food__list--price">¥850-</p>
-              </div>
-              <div class="food__list--item">
-                <p class="food__list--name">ウエボス・ア・ラ・フラメンカ<span class="food__list--info">卵と生ハム・チョリソのアンダルシア風オーブン焼</span></p>
-                <p class="food__list--price">¥850-</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <div class="food--inner fadein">
-      <h2 class="food__heading1"></h2>
       <div class="food__list--wrap">
         <div class="food__img">
           <img class="food__img--item" src="../images/food-03.jpg" alt="ハモン・セラーノ">
