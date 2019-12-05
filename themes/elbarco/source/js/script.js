@@ -1,5 +1,5 @@
 $(function () {
-  var headNav = $("header");
+  let headNav = $("header");
 	$(window).on('load scroll', function () {
 		if($(this).scrollTop() > 200 && headNav.hasClass('fixed') == false) {
 			headNav.css({"top": '-100px'});
@@ -11,13 +11,13 @@ $(function () {
 		}
   });
 
-  jQuery(window).scroll(function (){
-    jQuery('.fadein').each(function(){
-      var elemPos = jQuery(this).offset().top;
-      var scroll = jQuery(window).scrollTop();
-      var windowHeight = jQuery(window).height();
+  $(window).scroll(function (){
+    $('.fadein').each(function(){
+      let elemPos = $(this).offset().top;
+      let scroll = $(window).scrollTop();
+      let windowHeight = $(window).height();
       if (scroll > elemPos - windowHeight +100){
-        jQuery(this).addClass('scrollin');
+        $(this).addClass('scrollin');
       }
     });
   });
