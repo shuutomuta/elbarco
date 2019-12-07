@@ -11,13 +11,13 @@ $(function () {
 		}
   });
 
-  $(window).scroll(function (){
-    $('.fadein').each(function(){
-      let elemPos = $(this).offset().top;
-      let scroll = $(window).scrollTop();
-      let windowHeight = $(window).height();
+  jQuery(window).scroll(function (){
+    jQuery('.fadein').each(function(){
+      let elemPos = jQuery(this).offset().top;
+      let scroll = jQuery(window).scrollTop();
+      let windowHeight = jQuery(window).height();
       if (scroll > elemPos - windowHeight +100){
-        $(this).addClass('scrollin');
+        jQuery(this).addClass('scrollin');
       }
     });
   });
