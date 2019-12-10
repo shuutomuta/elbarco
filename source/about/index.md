@@ -13,5 +13,5 @@ description: 'エルバルコについて'
   </p>
 
   <div class="about__movie">
-    <iframe src="https://www.youtube.com/embed/YKL4KCJ8Aa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/3GIfxLkFmOA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
