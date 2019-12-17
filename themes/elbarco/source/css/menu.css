@@ -27,6 +27,10 @@ p {
   color: #fff;
   z-index: 100;
 }
+@media (max-width: 768px) {
+  .mv__content--heading {
+    font-size: calc(1.5rem + ((2vw - 6.6px) * 1.1048));
+}
 .mv__menu{
   background-image: url(../images/food_title.jpg);
   background-size: cover;
