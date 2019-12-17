@@ -103,13 +103,23 @@ p {
   font-size: .95rem;
 }
 @media (max-width: 768px) {
+.food__list--item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 0 4% 0;
+  font-size: .95rem;
+}
+}
+@media (max-width: 768px) {
   .food__list--name {
     padding: 0 5% 0 0;
+    font-size: 1rem;
   }
 }
 .food__list--info {
   display: block;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   padding-top: 5px;
 }
 .food__list--price {
