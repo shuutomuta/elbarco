@@ -121,6 +121,7 @@ p {
   .food__list--name {
     padding: 0 5% 0 0;
     font-size: 1rem;
+    width: 100%;
   }
 }
 .food__list--info {
