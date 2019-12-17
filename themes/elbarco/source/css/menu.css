@@ -129,6 +129,11 @@ p {
   font-size: 0.75rem;
   padding-top: 5px;
 }
+@media (max-width: 768px) {
+  .food__list--info {
+    font-size: calc(1rem + ((1vw - 7.6px) * 1.1048));
+  }
+}
 .food__list--price {
   text-align: right;
 }
