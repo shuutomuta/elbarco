@@ -31,6 +31,7 @@ p {
   .mv__content--heading {
     font-size: calc(1.5rem + ((2vw - 6.6px) * 1.1048));
 }
+}
 .mv__menu{
   background-image: url(../images/food_title.jpg);
   background-size: cover;
@@ -113,6 +114,7 @@ p {
   align-items: flex-start;
   padding: 0 0 4% 0;
   font-size: .95rem;
+  width: 100%;
 }
 }
 @media (max-width: 768px) {
