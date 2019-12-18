@@ -10,7 +10,7 @@ fancybox: true
 
 # Miscellaneous
 # google_analytics: GTM-NSJCHGF
-favicon: /favicon.png
+favicon: /favicon.ico
 
 # Sidebar
 sidebar: right
