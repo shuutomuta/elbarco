@@ -8,6 +8,26 @@
     width: 80%;
   }
 }
+.phone_guidance a{
+  color:#00f;
+  font-size:40px;
+  text-decoration: underline
+}
+@media (max-width: 768px) {
+  .phone_guidance a{
+    font-size:20px;
+  }
+}
+.phone_guidance{
+  width: 60%;
+  margin: 50px auto;
+}
+@media (max-width: 768px) {
+  .phone_guidance{
+    width: 80%;
+    margin: 20px auto;
+  }
+}
 .ThxMessage{
   margin-top:40px;
   margin-bottom:40px;
@@ -51,9 +71,18 @@
 }
 .form--label {
   width: 100%;
-  padding: 0 0 1% 1%;
+  padding: 0 0 0 1%;
   letter-spacing: 1px;
   font-size: 0.8rem;
+}
+.form--label--info {
+  width: 100%;
+  padding: 0 0 2% 1%;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+.form--label--tel {
+  font-weight: bold;
 }
 .form--input, .form--text {
   background: #f8f6f2;

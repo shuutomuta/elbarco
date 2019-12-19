@@ -7,6 +7,17 @@ description: 'エルバルコへのお問い合わせ'
 </div>
 
 <div id="formWrapper">
+  <div class = "phone_guidance">
+    <div class="form--list">
+      <p class="form--label form--label--tel">ご予約用電話番号</p>
+      <p class="form--label--info"><a href="tel:0942325281">0942-32-5281</a></p>
+      <p class="form--label--info">受付時間　平日:15:00 ~ 22:00</p>
+      <p class="form--label--info">受付時間　土日:12:00 ~ 22:00</p>
+      <p class="form--label--info">※12月30日から1月3日まで、お休みを頂きます。</p>
+      <p class="form--label--info">下記フォームより、インターネットでのご予約も受け付けております。</p>
+      <p class="form--label--info">※当日・前日のご予約は、お電話でのみ承っております。</p>
+    </div>
+  </div>
   <div class="form__area">
     <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSf2cqqIeZdyxTlekW_DC4-z6DsoW6olILqewxiGylNtmpYPqg/formResponse" id="form" name="myform" class="form" target="dummyIframe">
       <ul>
