@@ -572,11 +572,12 @@ SPヘッダー 終わり
 }
 .footer--nav--item {
   width: 20%;
-  margin-bottom: 2%;
+  margin: 0 0 4%;
 }
 @media (max-width: 768px) {
   .footer--nav--item {
     width: 50%;
+    margin: 0 0 2%;
   }
 }
 .footer--logo{
