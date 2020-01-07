@@ -366,7 +366,11 @@ SPヘッダー 終わり
 .fadein {
   opacity: 0;
   transform: translate(0, 100px);
-  transition: all 1500ms;
+  transition: all 1000ms;
+  -webkit-transition: all 1000ms;
+  -moz-transition: all 1000ms;
+  -ms-transition: all 1000ms;
+  -o-transition: all 1000ms;
 }
 .fadein.scrollin {
   opacity: 1;
