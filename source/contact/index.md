@@ -13,7 +13,6 @@ description: 'エルバルコへのお問い合わせ'
       <p class="form--label--info"><a href="tel:0942325281">0942-32-5281</a></p>
       <p class="form--label--info">受付時間　平日:15:00 ~ 22:00</p>
       <p class="form--label--info">受付時間　土日:12:00 ~ 22:00</p>
-      <p class="form--label--info">※12月30日から1月3日まで、お休みを頂きます。</p>
       <p class="form--label--info">下記フォームより、インターネットでのご予約も受け付けております。</p>
       <p class="form--label--info">※当日・前日のご予約は、お電話でのみ承っております。</p>
     </div>
