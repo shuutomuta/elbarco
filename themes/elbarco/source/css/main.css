@@ -341,7 +341,7 @@ SPヘッダー 終わり
 .mv h1 small {
   display: block;
   text-transform: lowercase;
-  font-size: .7em;
+  font-size: 1em;
 }
 .mv h1 small:first-child {
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
