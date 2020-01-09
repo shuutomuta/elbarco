@@ -337,16 +337,16 @@ SPヘッダー 終わり
   padding: 1em 2em;
   line-height: 1.5;
 }
-.mv h1 small {
+.mv h1 span {
   display: block;
   text-transform: lowercase;
   font-size: 1em;
 }
-.mv h1 small:first-child {
+.mv h1 span:first-child {
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   padding-bottom: .5em;
 }
-.mv h1 small:last-child {
+.mv h1 span:last-child {
   border-top: 1px solid rgba(0, 0, 0, 0.25);
   padding-top: .5em;
 }
