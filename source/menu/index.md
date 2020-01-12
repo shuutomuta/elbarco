@@ -6,7 +6,6 @@ description: 'エルバルコ のメニュー'
   </div>
   <section class="food">
     <div class="food--inner fadein">
-      <h2 class="food__heading1"></h2>
       <div class="food__list--wrap">
         <div class="food__img">
           <img class="food__img--item" src="../images/food-03.jpg" alt="ハモン・セラーノ" loading="lazy">

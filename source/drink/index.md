@@ -7,7 +7,6 @@ description: 'エルバルコのドリンクメニュー'
 
   <section class="drink">
     <div class="drink--inner fadein">
-      <h2 class="drink__heading1"></h2>
       <div class="drink__list--wrap">
         <div class="drink__list--area">
           <div class="drink__list">
