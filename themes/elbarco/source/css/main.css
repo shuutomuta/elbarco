@@ -221,7 +221,7 @@ SPヘッダー スタート
   display: block;
   color: #fff;
   text-decoration: none;
-  padding: 10px 0;
+  padding: 11px 0;
   transition: color .6s ease;
   font-size: 24px;
 }
@@ -458,6 +458,12 @@ SPヘッダー 終わり
   line-height: 1.7;
   margin-bottom: 3%;
   color: #fff;
+  font-size: 13px;
+}
+@media (max-width: 768px) {
+  .content--txt {
+    font-size: 13px;
+  }
 }
 .menu--inner {
   flex-direction: row-reverse;
@@ -491,13 +497,14 @@ SPヘッダー 終わり
     width: 100%;
     padding: 0 20px;
     margin-top: 40px;
-    font-size: calc(1rem + ((1vw - 7px) * 1.1048));
+    font-size: calc(1rem + ((1vw - 5.5px) * 1.1048));
   }
 }
 .access--txt dl {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 20px;
+  padding: 0 0 20px;
+  line-height
 }
 .access--txt dt {
   width: 25%;
@@ -573,7 +580,7 @@ SPヘッダー 終わり
 @media (max-width: 768px) {
   .footer--nav--item {
     width: 50%;
-    margin: 0 0 2%;
+    margin: 0 0 2.5%;
   }
 }
 .footer--logo{
