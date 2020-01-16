@@ -504,7 +504,7 @@ SPヘッダー 終わり
   display: flex;
   flex-wrap: wrap;
   padding: 0 0 20px;
-  line-height
+  line-height: 1.7;
 }
 .access--txt dt {
   width: 25%;
