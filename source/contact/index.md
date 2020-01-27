@@ -13,11 +13,11 @@ description: 'エルバルコへのお問い合わせ'
       <p class="form--label--info"><a href="tel:0942325281">0942-32-5281</a></p>
       <p class="form--label--info">受付時間　平日:15:00 ~ 22:00</p>
       <p class="form--label--info">受付時間　土日:12:00 ~ 22:00</p>
-      <p class="form--label--info">下記フォームより、インターネットでのご予約も受け付けております。</p>
-      <p class="form--label--info">※当日・前日のご予約は、お電話でのみ承っております。</p>
+      <!-- <p class="form--label--info">下記フォームより、インターネットでのご予約も受け付けております。</p>
+      <p class="form--label--info">※当日・前日のご予約は、お電話でのみ承っております。</p> -->
     </div>
   </div>
-  <div class="form__area">
+  <!-- <div class="form__area">
     <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSf2cqqIeZdyxTlekW_DC4-z6DsoW6olILqewxiGylNtmpYPqg/formResponse" id="form" name="myform" class="form" target="dummyIframe">
       <ul>
         <li class="form--list">
@@ -79,12 +79,12 @@ description: 'エルバルコへのお問い合わせ'
       </ul>
     </form>
   <iframe name="dummyIframe" style="display:none;"></iframe>
-  </div>
+  </div> -->
 </div>
 
-<div id="thxMessage" style="display:none;">
+<!-- <div id="thxMessage" style="display:none;">
   <div class="ThxMessage">
     お問い合わせありがとうございました。
   </div>
   <a class="TopLink" href="https://elbarco.jp/">トップページへ戻る</a>
-</div>
+</div> -->
