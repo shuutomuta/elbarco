@@ -1,4 +1,12 @@
 
+a[href^="tel:"] {
+  pointer-events: none;
+}
+@media (max-width: 768px) {
+  a[href^="tel:"] {
+    pointer-events: auto;
+  }
+}
 .form {
   width: 60%;
   margin: 50px auto;
