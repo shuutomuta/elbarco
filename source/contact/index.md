@@ -10,7 +10,7 @@ description: 'エルバルコへのお問い合わせ'
   <div class = "phone_guidance">
     <div class="form--list">
       <p class="form--label form--label--tel">ご予約用電話番号</p>
-      <p class="form--label--info"><a href="tel:0942322032">0942-32-2032</a></p>
+      <p class="form--label--info"><a href="tel:0942312032">0942-31-2032</a></p>
       <p class="form--label--info">受付時間　平日:15:00 ~ 22:00</p>
       <p class="form--label--info">受付時間　土日:12:00 ~ 22:00</p>
       <!-- <p class="form--label--info">下記フォームより、インターネットでのご予約も受け付けております。</p>
