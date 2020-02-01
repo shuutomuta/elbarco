@@ -602,6 +602,9 @@ SPヘッダー 終わり
 .footer--privacy--txt {
   color: #fff;
 }
+.copy small{
+  font-size: 0.8rem;
+}
 .about__txt{
   text-align: center;
   font-size: 16px;
