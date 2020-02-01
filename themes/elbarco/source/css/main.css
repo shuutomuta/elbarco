@@ -458,7 +458,7 @@ SPヘッダー 終わり
   line-height: 1.7;
   margin-bottom: 3%;
   color: #fff;
-  font-size: 13px;
+  font-size: 1rem;
 }
 @media (max-width: 768px) {
   .content--txt {
