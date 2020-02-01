@@ -128,7 +128,7 @@ header .nav {
 SPヘッダー スタート
 -------------------- */
 #nav__toggle {
-  position: fixed;
+  position: absolute;
   top: 21px;
   right: 25px;
   height: 32px;
