@@ -98,7 +98,7 @@ header .nav {
 .nav--menu {
   text-align: center;
   display: flex;
-  height: 80px;
+  height: 70px;
   align-items: center;
   justify-content: center;
 }
@@ -107,7 +107,7 @@ header .nav {
   padding: 0 30px;
   list-style-type: none;
   display: inline-block;
-  line-height: 80px;
+  line-height: 70px;
 }
 .nav--menu li a {
   color: #fff;
@@ -221,7 +221,7 @@ SPヘッダー スタート
   display: block;
   color: #fff;
   text-decoration: none;
-  padding: 11px 0;
+  padding: 6px 0;
   transition: color .6s ease;
   font-size: 24px;
 }
@@ -250,6 +250,7 @@ SPヘッダー スタート
   transition: transform 1s ease, opacity .9s ease;
   -webkit-transform: translateY(0);
   -webkit-transition: transform 1s ease, opacity .9s ease;
+  margin: 0 0 15px;
 }
 /* -------------------- 
 SPヘッダー 終わり
