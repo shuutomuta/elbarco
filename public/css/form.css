@@ -1,4 +1,12 @@
 
+a[href^="tel:"] {
+  pointer-events: none;
+}
+@media (max-width: 768px) {
+  a[href^="tel:"] {
+    pointer-events: auto;
+  }
+}
 .form {
   width: 60%;
   margin: 50px auto;
@@ -15,17 +23,18 @@
 }
 @media (max-width: 768px) {
   .phone_guidance a{
-    font-size:20px;
+    font-size:1.8rem;
   }
 }
 .phone_guidance{
   width: 60%;
   margin: 50px auto;
+  text-align: center;
 }
 @media (max-width: 768px) {
   .phone_guidance{
     width: 80%;
-    margin: 20px auto;
+    margin: 20px auto 40px;
   }
 }
 .ThxMessage{
@@ -66,22 +75,32 @@
 .form--list {
   align-items: center;
   margin: 0 0 25px;
-  font-size:12px;
+  font-size: 12px;
 }
 .form--label {
   width: 100%;
   padding: 0 0 0 1%;
   letter-spacing: 1px;
-  font-size: .8rem;
+  font-size: 1.5rem;
 }
 .form--label--info {
   width: 100%;
   padding: 0 0 2% 1%;
   letter-spacing: 1px;
-  font-size: .8rem;
+  font-size: 1.5rem;
+}
+@media (max-width: 768px) {
+  .form--label--info {
+    font-size: 1.1rem;
+  }
 }
 .form--label--tel {
   font-weight: bold;
+}
+@media (max-width: 768px) {
+  .form--label--tel {
+    font-size: 1.2rem;
+  }
 }
 .form--input, .form--text {
   background: #f8f6f2;

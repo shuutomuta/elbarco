@@ -128,7 +128,7 @@ header .nav {
 SPヘッダー スタート
 -------------------- */
 #nav__toggle {
-  position: fixed;
+  position: absolute;
   top: 21px;
   right: 25px;
   height: 32px;
@@ -458,7 +458,7 @@ SPヘッダー 終わり
   line-height: 1.7;
   margin-bottom: 3%;
   color: #fff;
-  font-size: 13px;
+  font-size: 1rem;
 }
 @media (max-width: 768px) {
   .content--txt {
@@ -580,7 +580,7 @@ SPヘッダー 終わり
 @media (max-width: 768px) {
   .footer--nav--item {
     width: 50%;
-    margin: 0 0 2.5%;
+    margin: 0 0 5%;
   }
 }
 .footer--logo{
@@ -601,6 +601,9 @@ SPヘッダー 終わり
 }
 .footer--privacy--txt {
   color: #fff;
+}
+.copy small{
+  font-size: 0.8rem;
 }
 .about__txt{
   text-align: center;
