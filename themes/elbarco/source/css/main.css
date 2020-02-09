@@ -104,14 +104,14 @@ header .nav {
 }
 .nav--menu li {
   color: #fff;
-  padding: 0 30px;
+  padding: 0 40px;
   list-style-type: none;
   display: inline-block;
   line-height: 70px;
 }
 .nav--menu li a {
   color: #fff;
-  font-size: .8rem;
+  font-size: .85rem;
   font-weight: normal;
 }
 .fixed {
@@ -281,7 +281,7 @@ SPヘッダー 終わり
     margin: auto;
   }
 }
-.more-btn a:after {
+/* .more-btn a:after {
   content: "";
   position: absolute;
   top: -100%;
@@ -295,7 +295,7 @@ SPヘッダー 終わり
 .more-btn a:hover:after {
   top: 0;
   left: 0;
-}
+} */
 /* -------------------- 
 ボタン 終わり
 -------------------- */
