@@ -8,10 +8,10 @@ description: 'エルバルコ のメニュー'
     <div class="food--inner fadein">
       <div class="food__list--wrap">
         <div class="food__img">
-          <img class="food__img--item" src="../images/food-03.jpg" alt="ハモン・セラーノ" loading="lazy">
-          <img class="food__img--item" src="../images/food-04.jpg" alt="真だこのガリシア風" loading="lazy">
-          <img class="food__img--item" src="../images/food-05.jpg" alt="小海老のニンニク・ソテー" loading="lazy">
-          <img class="food__img--item" src="../images/food-06.jpg" alt="マッシュルームのセゴビア風" loading="lazy">
+          <img class="food__img--item" src="../images/food-03.jpg" alt="ハモン・セラーノ">
+          <img class="food__img--item" src="../images/food-04.jpg" alt="真だこのガリシア風">
+          <img class="food__img--item" src="../images/food-05.jpg" alt="小海老のニンニク・ソテー">
+          <img class="food__img--item" src="../images/food-06.jpg" alt="マッシュルームのセゴビア風">
         </div>
         <div class="food__list--area">
           <div class="food__list">
@@ -105,8 +105,8 @@ description: 'エルバルコ のメニュー'
     <div class="food--inner fadein">
       <div class="food__list--wrap">
         <div class="food__img">
-          <img class="food__img--item" src="../images/food-07.jpg" alt="魚介類のパエーリャ（2人前）" loading="lazy">
-          <img class="food__img--item" src="../images/food-08.jpg" alt="イカ墨のパエーリャ（2人前）" loading="lazy">
+          <img class="food__img--item" src="../images/food-07.jpg" alt="魚介類のパエーリャ（2人前）">
+          <img class="food__img--item" src="../images/food-08.jpg" alt="イカ墨のパエーリャ（2人前）">
         </div>
         <div class="food__list--area">
           <div class="food__list">
@@ -140,9 +140,9 @@ description: 'エルバルコ のメニュー'
     <div class="food--inner fadein">
       <div class="food__list--wrap">
         <div class="food__img">
-          <img class="food__img--item" src="../images/food-09.jpg" alt="ミックス・サラダ" loading="lazy">
-          <img class="food__img--item" src="../images/food-10.jpg" alt="タコとポテトのサラダ" loading="lazy">
-          <img class="food__img--item" src="../images/food-11.jpg" alt="魚介類のサラダ" loading="lazy">
+          <img class="food__img--item" src="../images/food-09.jpg" alt="ミックス・サラダ">
+          <img class="food__img--item" src="../images/food-10.jpg" alt="タコとポテトのサラダ">
+          <img class="food__img--item" src="../images/food-11.jpg" alt="魚介類のサラダ">
         </div>
         <div class="food__list--area">
           <div class="food__list">
@@ -172,8 +172,8 @@ description: 'エルバルコ のメニュー'
     <div class="food--inner fadein">
       <div class="food__list--wrap">
         <div class="food__img">
-          <img class="food__img--item" src="../images/food-12.jpg" alt="若鶏のチリンドロン・ソース煮（2人前）" loading="lazy">
-          <img class="food__img--item" src="../images/food-13.jpg" alt="エンパナーダ" loading="lazy">
+          <img class="food__img--item" src="../images/food-12.jpg" alt="若鶏のチリンドロン・ソース煮（2人前）">
+          <img class="food__img--item" src="../images/food-13.jpg" alt="エンパナーダ">
         </div>
         <div class="food__list--area">
           <div class="food__list">
@@ -215,8 +215,8 @@ description: 'エルバルコ のメニュー'
     <div class="food--inner fadein">
       <div class="food__list--wrap">
         <div class="food__img">
-          <img class="food__img--item" src="../images/food-16.jpg" alt="クレマ・カタラナ" loading="lazy">
-          <img class="food__img--item" src="../images/food-17.jpg" alt="アロス・コン・レチェ" loading="lazy">
+          <img class="food__img--item" src="../images/food-16.jpg" alt="クレマ・カタラナ">
+          <img class="food__img--item" src="../images/food-17.jpg" alt="アロス・コン・レチェ">
         </div>
         <div class="food__list--area">
           <div class="food__list">
