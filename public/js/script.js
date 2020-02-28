@@ -37,3 +37,13 @@ function SendDummy(){
   document.getElementById('formWrapper').style.display = 'none';
   document.getElementById('thxMessage').style.display = 'block';
 }
+
+
+(function($) {
+  $(function() {
+      var $header = $('#top-head');
+      $('#nav-toggle').click(function(){
+          $header.toggleClass('open');
+      });
+  });
+})(jQuery);

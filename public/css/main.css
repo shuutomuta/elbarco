@@ -72,190 +72,263 @@ a:hover {
 dd a{
   color: #000;
   font-family:"Noto Sans JP", sans-serif;
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 ul {
   list-style: none;
 }
-header {
-  background: #242424;
-  color: #fff;
-  position: relative;
-  width: 100%;
+
+header{
   display: none;
-  height: 70px;
-}
-.sp__logo{
-  position: fixed;
-  left: 10px;
-  width: 50px;
-  margin: 12px 0;
-}
-header .nav {
   width: 100%;
-  z-index: 10;
 }
-.nav--menu {
-  text-align: center;
-  display: flex;
-  height: 70px;
-  align-items: center;
-  justify-content: center;
-}
-.nav--menu li {
-  color: #fff;
-  padding: 0 30px;
-  list-style-type: none;
-  display: inline-block;
-  line-height: 70px;
-}
-.nav--menu li a {
-  color: #fff;
-  font-size: .8rem;
-  font-weight: normal;
-}
-.fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  display: block;
-}
-.fixed .nav-menu li {
-  line-height: 40px;
-}
-/* -------------------- 
-SPヘッダー スタート
--------------------- */
-#nav__toggle {
-  position: absolute;
-  top: 21px;
-  right: 25px;
-  height: 32px;
-  cursor: pointer;
-}
-#nav__toggle .nav__toggle--area {
-  position: relative;
-  width: 32px;
-}
-#nav__toggle .burger--line {
-  width: 100%;
-  height: 1px;
-  left: 0;
-  display: block;
-  background: #fff;
-  position: absolute;
-  transition: transform .6s ease-in-out, top .5s ease;
-}
-#nav__toggle .burger--line:nth-child(1) {
-  top: 0;
-}
-#nav__toggle .burger--line:nth-child(2) {
-  top: 11px;
-}
-#nav__toggle .burger--line:nth-child(3) {
-  top: 22px;
-}
-#nav__toggle:hover .burger--line:nth-child(1) {
-  top: 0px;
-}
-#nav__toggle:hover .burger--line:nth-child(3) {
-  top: 22px;
-}
-.open #nav__toggle .burger--line {
-  background: #fff;
-}
-.open #nav__toggle .burger--line:nth-child(1) {
-  top: 11px;
-  transform: rotate(45deg);
-}
-.open #nav__toggle .burger--line:nth-child(2) {
-  top: 11px;
-  width: 0;
-  left: 50%;
-}
-.open #nav__toggle .burger--line:nth-child(3) {
-  top: 11px;
-  transform: rotate(-45deg);
-}
-#nav__toggle {
-  z-index: 1000;
-}
-#container {
-  z-index: 900;
-}
-.sp__nav {
-  background: #000;
-  color: #fff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 990;
-  text-align: center;
-  display: flex;
-  visibility: hidden;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 29px;
-  opacity: 0;
-  transition: opacity .6s ease, visibility .6s ease;
-}
+
 .sp__nav--heading{
   margin: 10px 0;
 }
 .sp__nav--img {
   width: 120px;
   margin: 0 auto;
-  opacity: 0;
-  transform: translateY(200px);
-  transition: transform .6s ease, opacity .2s ease;
-  -webkit-transform: translateY(200px);
 }
-.sp__nav--menu {
-  margin-bottom: 10vh;
+
+.sp__nav--img--head{
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  padding: 5px 0;
 }
-.sp__nav a {
+
+.l-header {
+  position: relative;
+  z-index: 101;
+}
+
+.p-global-header {
+  align-items: center;
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+  padding: 0 5%;
+  width: 100%;
+  background: #242424;
+  height: 70px;
+}
+
+.fixed{
+  position: fixed;
   display: block;
-  color: #fff;
+  left: 0;
+  height: 70px;
+}
+
+.p-header-logo {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.p-header-nav ul {
+  display: flex;
+}
+
+.p-header-nav li {
+  color: #fafafa;
   text-decoration: none;
-  padding: 6px 0;
-  transition: color .6s ease;
-  font-size: 24px;
+  display: block;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: .85rem;
+  font-weight: normal;
 }
-.sp__nav a:hover {
-  color: #666;
+
+.p-header-nav li a {
+  color: #fafafa;
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: .85rem;
+  font-weight: normal;
 }
-.sp__nav ul {
-  list-style: none;
+
+.p-burger-icon {
+  height: 100%;
+  position: relative;
+  width: 32px;
 }
-.sp__nav ul li {
-  opacity: 0;
-  transform: translateY(200px);
-  transition: transform .6s ease, opacity .2s ease;
-  -webkit-transform: translateY(200px);
+
+.p-burger-icon__line {
+  background: #fafafa;
+  display: inline-block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: calc(50% - 1px);
+  width: 100%;
 }
-.open {
-  overflow: hidden;
+
+.p-burger-icon__line:first-child {
+  transform: translateY(-10px);
 }
-.open .sp__nav {
-  visibility: visible;
-  opacity: 1;
+
+.p-burger-icon__line:last-child {
+  transform: translateY(10px);
 }
-.open .sp__nav--img, .open .sp__nav li {
-  opacity: 1;
-  transform: translateY(0);
-  transition: transform 1s ease, opacity .9s ease;
-  -webkit-transform: translateY(0);
-  -webkit-transition: transform 1s ease, opacity .9s ease;
-  margin: 0 0 15px;
+
+.content-headline {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
 }
-/* -------------------- 
-SPヘッダー 終わり
--------------------- */
-/* -------------------- 
+
+.p-hero-header {
+  align-items: center;
+  background: #000;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  min-height: 480px;
+}
+
+.p-hero-header__ttl {
+  color: #fafafa;
+  font-size: 3.2rem;
+  font-weight: bold;
+  letter-spacing: .15em;
+}
+
+.nav-toggle {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  width: 30px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 101;
+}
+
+.nav-toggle div {
+  position: relative;
+}
+
+.nav-toggle span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #fff;
+  left: 0;
+  -webkit-transition: .35s ease-in-out;
+  -moz-transition: .35s ease-in-out;
+  transition: .35s ease-in-out;
+}
+
+.nav-toggle span:nth-child(1) {
+  top: 0;
+}
+
+.nav-toggle span:nth-child(2) {
+  top: 9px;
+}
+
+.nav-toggle span:nth-child(3) {
+  top: 18px;
+}
+
+@media (max-width: 768px) {
+  #mobile-head {
+    width: 100%;
+    height: 56px;
+    z-index: 900;
+    position: relative;
+  }
+  #top-head.fixed .logo,
+  #top-head .mobile-logo {
+    text-align: left;
+  }
+  .p-header-nav {
+    position: absolute;
+    /* 開いてないときは画面外に配置 */
+    top: -100vh;
+    background: #333;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 29px;
+  }
+  .p-header-nav ul {
+    list-style: none;
+    position: static;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .p-header-nav ul li {
+    float: none;
+    position: static;
+    width: 100%;
+    display: block;
+    color: #fff;
+    padding: 18px 0;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 0;
+    transition: color .6s ease;
+    font-size: 24px;
+  }
+  .p-header-nav ul li a,
+  .p-header-nav #top-head.fixed #global-nav ul li a {
+    font-size: 1.5rem;
+  }
+  #nav-toggle {
+    display: block;
+  }
+  /* #nav-toggle 切り替えアニメーション */
+  .open #nav-toggle span:nth-child(1) {
+    top: 11px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .open #nav-toggle span:nth-child(2) {
+    width: 0;
+    left: 50%;
+  }
+  .open #nav-toggle span:nth-child(3) {
+    top: 11px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  /* #global-nav スライドアニメーション */
+  .open #global-nav {
+    /*#global-navtop+#mobile-headheight*/
+    -moz-transform: translateY(100vh);
+    -webkit-transform: translateY(100vh);
+    transform: translateY(100vh);
+    -moz-transform: translateY(100vh);
+    -ms-transform: translateY(100vh);
+    -o-transform: translateY(100vh);
+  }
+}
+
+
+/* --------------------
 ボタン スタート
 -------------------- */
 .more-btn {
@@ -281,7 +354,7 @@ SPヘッダー 終わり
     margin: auto;
   }
 }
-.more-btn a:after {
+/* .more-btn a:after {
   content: "";
   position: absolute;
   top: -100%;
@@ -295,14 +368,19 @@ SPヘッダー 終わり
 .more-btn a:hover:after {
   top: 0;
   left: 0;
-}
-/* -------------------- 
+} */
+/* --------------------
 ボタン 終わり
 -------------------- */
+#content{
+  z-index: 1;
+  position: relative;
+}
+
 .content {
   text-align: center;
   width: 100%;
-  color: #FFFFFF;
+  color: #fff;
 }
 .content-inner {
   display: -webkit-flex;
