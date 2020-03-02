@@ -39,7 +39,6 @@ body {
 }
 @media (max-width: 768px) {
   body {
-    min-width: 100%;
     width: 100%;
   }
 }
@@ -433,7 +432,6 @@ header{
   position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
