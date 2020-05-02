@@ -30,6 +30,8 @@ p {
 @media (max-width: 768px) {
   .mv__content--heading {
     font-size: calc(1.5rem + ((2vw - 6.6px) * 1.1048));
+    width: 80%;
+    text-align: center;
 }
 }
 .mv__menu{
@@ -48,6 +50,11 @@ p {
   background-position: center;
 }
 .mv__contact{
+  background-image: url(../images/contact_title.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.mv__takeout{
   background-image: url(../images/contact_title.jpg);
   background-size: cover;
   background-position: center;

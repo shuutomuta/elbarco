@@ -8,6 +8,13 @@
     </url>
     
     <url>
+        <loc>https://elbarco.jp/takeout/</loc>
+        <lastmod>2020-05-01T19:06:28.472Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://elbarco.jp/drink/</loc>
         <lastmod>2020-04-01T00:58:56.361Z</lastmod>
         <changefreq>weekly</changefreq>
