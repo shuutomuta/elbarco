@@ -26,7 +26,7 @@ html {
   }
 }
 body {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   box-sizing: border-box;
   line-height: 1.5;
   word-wrap: break-word;
@@ -61,7 +61,7 @@ img {
 a {
   text-decoration: none;
   color: #fff;
-  font-family: "Roboto Condensed", "Noto Sans JP", sans-serif;
+  font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
 }
@@ -70,7 +70,7 @@ a:hover {
 }
 dd a{
   color: #000;
-  font-family:"Noto Sans JP", sans-serif;
+  font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   text-decoration: underline;
 }
 ul {
@@ -142,6 +142,7 @@ header{
 }
 
 .p-header-nav li a {
+  position: relative;
   color: #fafafa;
   text-decoration: none;
   display: block;
@@ -149,6 +150,25 @@ header{
   color: #fff;
   font-size: .85rem;
   font-weight: normal;
+}
+
+
+@media (max-width: 768px) {
+  .p-header-nav li a::before{
+    content: '';
+    width: 6px;
+    height: 6px;
+    border: 0px;
+    border-top: solid 2px #fff;
+    border-right: solid 2px #fff;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    margin-top: -4px;
+  }
 }
 
 .p-burger-icon {
@@ -644,20 +664,58 @@ header{
 .footer--nav--area a {
   color: #fff;
   font-size: calc(1rem + ((1vw - 13px) * 1.1048));
+  position: relative;
+  width: 100%;
+  display: block;
+  padding: 10px 30px 10px 0;
 }
 @media (max-width: 768px) {
   .footer--nav--area a {
     font-size: calc(1rem + ((1vw - 6px) * 1.1048));
+    padding: 10px;
+  }
+}
+.footer--nav--item a::before{
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 0px;
+  border-top: solid 2px #fff;
+  border-right: solid 2px #fff;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  margin-top: -4px;
+}
+.footer--nav--item:last-child a::before{
+  right: 25%;
+}
+@media (max-width: 768px) {
+  .footer--nav--item a::before{
+    right: 10%;
+  }
+}
+@media (max-width: 768px) {
+  .footer--nav--item:last-child a::before{
+    right: 10%;
   }
 }
 .footer--nav--item {
-  width: 20%;
-  margin: 0 0 4%;
+  width: 23%;
+  margin: 0 10px 4%;
+  border-right:  1px solid;
+}
+.footer--nav--item:first-child{
+  border-left:  1px solid;
 }
 @media (max-width: 768px) {
   .footer--nav--item {
-    width: 50%;
-    margin: 0 0 5%;
+    width: calc(100% / 2 - 4%);
+    margin: 0 2% 4%;
+    border: 1px solid;
   }
 }
 .footer--logo{
@@ -665,7 +723,6 @@ header{
   margin: 0 auto;
 }
 .footer--address {
-  font-family: 'SabonLTPro-Italic', "serif";
   margin: 20px 0 40px;
   padding-bottom: 20px;
   border-bottom: 1px solid #7C7C7C;

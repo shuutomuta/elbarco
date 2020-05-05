@@ -142,6 +142,7 @@ header{
 }
 
 .p-header-nav li a {
+  position: relative;
   color: #fafafa;
   text-decoration: none;
   display: block;
@@ -149,6 +150,25 @@ header{
   color: #fff;
   font-size: .85rem;
   font-weight: normal;
+}
+
+
+@media (max-width: 768px) {
+  .p-header-nav li a::before{
+    content: '';
+    width: 6px;
+    height: 6px;
+    border: 0px;
+    border-top: solid 2px #fff;
+    border-right: solid 2px #fff;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    margin-top: -4px;
+  }
 }
 
 .p-burger-icon {
