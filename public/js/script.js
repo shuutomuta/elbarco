@@ -22,10 +22,8 @@ $(function () {
     });
   });
 
-  $('#nav__toggle').on('click', function() {
-    $('body').toggleClass('open');
-  });
 });
+
 function doPost(){
   $("input[name=submitBtn]").click();
     if (form.checkValidity()){
@@ -47,3 +45,13 @@ function SendDummy(){
       });
   });
 })(jQuery);
+
+$(function () {
+  $('#nav-toggle').on('click', function () {
+      if ($(".nav-toggle-txt").text() === '閉じる') {
+          $(".nav-toggle-txt").text('メニュー');
+      } else {
+          $(".nav-toggle-txt").text('閉じる');
+      }
+  });
+});
