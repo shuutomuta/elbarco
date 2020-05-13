@@ -80,7 +80,7 @@ description: 'エルバルコ のメニュー'
               <div class="food__list--item">
                 <p class="food__list--name">海老の塩茹で<span class="food__list--info">塩茹でした海老をガーリックマヨネーズでどうぞ</span></p>
                 <p class="food__list--price">¥780-</p>
-              </div>s
+              </div>
               <div class="food__list--item">
                 <p class="food__list--name">アサリのワイン蒸し<span class="food__list--info">アサリの白ワイン蒸し</span></p>
                 <p class="food__list--price">¥750-</p>
