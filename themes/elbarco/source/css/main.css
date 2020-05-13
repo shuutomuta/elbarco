@@ -385,21 +385,27 @@ header{
     margin: auto;
   }
 }
-/* .more-btn a:after {
-  content: "";
+.more-btn a:after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 0px;
+  border-top: solid 2px #fff;
+  border-right: solid 2px #fff;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
   position: absolute;
-  top: -100%;
-  left: -100%;
-  height: 100%;
-  width: 100%;
-  background: #fff;
-  opacity: 0.3;
-  transition: .4s;
+  top: 55%;
+  right: 30%;
+  margin-top: -4px;
 }
-.more-btn a:hover:after {
-  top: 0;
-  left: 0;
-} */
+@media (max-width: 768px) {
+  .more-btn a:after {
+    top: 55%;
+    right: 25%;
+  }
+}
 /* --------------------
 ボタン 終わり
 -------------------- */
@@ -820,7 +826,6 @@ header{
   font-size: 1.5rem;
   margin: 0 auto 20px;
   text-align: center;
-
 }
 @media (max-width: 768px) {
   .takeout--heading{
@@ -828,7 +833,6 @@ header{
     margin: 0 auto 10px;
   }
 }
-
 .takeout--heading--txt{
   font-size: 1rem;
   margin: 0 auto 10px;
@@ -839,6 +843,17 @@ header{
   .takeout--heading--txt{
     font-size: calc(1rem + ((1.3vw - 7.6px) * 1.1048));
     margin: 0 3% 10px;
+  }
+}
+.takeout--heading--tax{
+  font-size: 1rem;
+  margin: 0 auto 20px;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .takeout--heading--tax{
+    font-size: 1rem;
+    margin: 0 3% 15px;
   }
 }
 

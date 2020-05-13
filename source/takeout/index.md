@@ -21,7 +21,7 @@ description: 'エルバルコ のテイクアウトメニュー'
         <div class="food__list--area">
           <div class="food__list">
             <h3 class="food__list--heading1">パエリアは注文を受けて生米から作り始めますので、テイクアウト希望時間の1時間前までにご注文をお願いします。</h3>
-            <p class="takeout--heading--txt">*テイクアウト商品は全て税込です。</p>
+            <p class="takeout--heading--tax">*テイクアウト商品は全て税込です。</p>
             <div class="food__list--box">
               <div class="food__list--item">
                 <p class="food__list--name">魚介類のパエリア（2~3人前）<span class="food__list--info"></span></p>
