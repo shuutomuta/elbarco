@@ -834,11 +834,25 @@ header{
   margin: 0 auto 10px;
   text-align: center;
   font-weight: bold;
-
 }
 @media (max-width: 768px) {
   .takeout--heading--txt{
     font-size: calc(1rem + ((1.3vw - 7.6px) * 1.1048));
     margin: 0 3% 10px;
+  }
+}
+
+.emergency-txt{
+  text-align: center;
+  margin: 0 5% 80px;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .emergency-txt{
+    text-align: center;
+    margin: 0 5% 60px;
+    font-size: .95rem;
+    font-weight: bold;
   }
 }
