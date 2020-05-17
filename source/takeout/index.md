@@ -9,7 +9,6 @@ description: 'エルバルコ のテイクアウトメニュー'
       <h3 class="takeout--heading">テイクアウトメニュー</h3>
       <p class="takeout--heading--txt">期間限定でテイクアウト始めました。<br>当店ならではの味をご家庭でもお楽しみください。</p>
       <p class="takeout--heading--txt">*テイクアウトTEL受付時間は<br class="sp_only">15:00~19:00です。</p>
-      <p class="takeout--heading--txt">*緊急事態宣言下におきましては、店内飲食を17:00～20:00までとさせていただきます。</p>
     </div>
     <div class="food--inner fadein">
       <div class="food__list--wrap">
