@@ -50,6 +50,10 @@ description: 'エルバルコ のテイクアウトメニュー'
                 <p class="food__list--name">タコのガリシア風<span class="food__list--info"></span></p>
                 <p class="food__list--price">¥780-</p>
               </div>
+              <div class="food__list--item">
+                <p class="food__list--name">スペアリブの赤ワイン煮込み<span class="food__list--info"></span></p>
+                <p class="food__list--price">¥950-</p>
+              </div>
             </div>
           </div>
         </div>

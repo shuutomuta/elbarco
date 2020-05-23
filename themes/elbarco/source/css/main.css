@@ -148,8 +148,9 @@ header{
   display: block;
   padding: 5px 10px;
   color: #fff;
-  font-size: .85rem;
+  font-size: .95rem;
   font-weight: normal;
+  text-align: center;
 }
 
 
@@ -168,6 +169,18 @@ header{
     top: 50%;
     right: 25%;
     margin-top: -4px;
+  }
+}
+
+.p-nav-link-ja{
+display: block;
+text-align: center;
+font-size: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .p-nav-link-ja{
+    font-size: 0.75rem;
   }
 }
 
