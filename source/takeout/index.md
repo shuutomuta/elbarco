@@ -8,8 +8,7 @@ description: 'エルバルコ のテイクアウトメニュー'
     <div class="takeout">
       <h3 class="takeout--heading">テイクアウトメニュー</h3>
       <p class="takeout--heading--txt">期間限定でテイクアウト始めました。<br>当店ならではの味をご家庭でもお楽しみください。</p>
-      <p class="takeout--heading--txt">*テイクアウトTEL受付時間は<br class="sp_only">15:00~19:00です。</p>
-      <p class="takeout--heading--txt">*緊急事態宣言下におきましては、店内飲食を17:00～20:00までとさせていただきます。</p>
+      <p class="takeout--heading--txt">*テイクアウトTEL受付時間は<br class="sp_only">15:00〜19:00です。</p>
     </div>
     <div class="food--inner fadein">
       <div class="food__list--wrap">
@@ -21,7 +20,7 @@ description: 'エルバルコ のテイクアウトメニュー'
         <div class="food__list--area">
           <div class="food__list">
             <h3 class="food__list--heading1">パエリアは注文を受けて生米から作り始めますので、テイクアウト希望時間の1時間前までにご注文をお願いします。</h3>
-            <p class="takeout--heading--txt">*テイクアウト商品は全て税込です。</p>
+            <p class="takeout--heading--tax">*テイクアウト商品は全て税込です。</p>
             <div class="food__list--box">
               <div class="food__list--item">
                 <p class="food__list--name">魚介類のパエリア（2~3人前）<span class="food__list--info"></span></p>
@@ -50,6 +49,10 @@ description: 'エルバルコ のテイクアウトメニュー'
               <div class="food__list--item">
                 <p class="food__list--name">タコのガリシア風<span class="food__list--info"></span></p>
                 <p class="food__list--price">¥780-</p>
+              </div>
+              <div class="food__list--item">
+                <p class="food__list--name">スペアリブの赤ワイン煮込み<span class="food__list--info"></span></p>
+                <p class="food__list--price">¥950-</p>
               </div>
             </div>
           </div>
