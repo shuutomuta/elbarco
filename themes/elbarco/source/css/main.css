@@ -381,11 +381,11 @@ font-size: 0.5rem;
 }
 .more-btn a {
   color: #333;
-  font-size: 12px;
+  font-size: 14px;
   display: block;
   position: relative;
   width: 80%;
-  padding: 10px;
+  padding: 15px 10px;
   text-align: center;
   text-decoration: none;
   color: #fff;
@@ -415,8 +415,8 @@ font-size: 0.5rem;
 }
 @media (max-width: 768px) {
   .more-btn a:after {
-    top: 55%;
-    right: 25%;
+    top: 50%;
+    right: 20%;
   }
 }
 /* --------------------
