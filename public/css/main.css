@@ -148,8 +148,9 @@ header{
   display: block;
   padding: 5px 10px;
   color: #fff;
-  font-size: .85rem;
+  font-size: .95rem;
   font-weight: normal;
+  text-align: center;
 }
 
 
@@ -168,6 +169,18 @@ header{
     top: 50%;
     right: 25%;
     margin-top: -4px;
+  }
+}
+
+.p-nav-link-ja{
+display: block;
+text-align: center;
+font-size: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .p-nav-link-ja{
+    font-size: 0.75rem;
   }
 }
 
@@ -368,11 +381,11 @@ header{
 }
 .more-btn a {
   color: #333;
-  font-size: 12px;
+  font-size: 14px;
   display: block;
   position: relative;
   width: 80%;
-  padding: 10px;
+  padding: 15px 10px;
   text-align: center;
   text-decoration: none;
   color: #fff;
@@ -385,21 +398,27 @@ header{
     margin: auto;
   }
 }
-/* .more-btn a:after {
-  content: "";
+.more-btn a:after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 0px;
+  border-top: solid 2px #fff;
+  border-right: solid 2px #fff;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
   position: absolute;
-  top: -100%;
-  left: -100%;
-  height: 100%;
-  width: 100%;
-  background: #fff;
-  opacity: 0.3;
-  transition: .4s;
+  top: 55%;
+  right: 30%;
+  margin-top: -4px;
 }
-.more-btn a:hover:after {
-  top: 0;
-  left: 0;
-} */
+@media (max-width: 768px) {
+  .more-btn a:after {
+    top: 50%;
+    right: 20%;
+  }
+}
 /* --------------------
 ボタン 終わり
 -------------------- */
@@ -571,7 +590,8 @@ header{
 }
 @media (max-width: 768px) {
   .content--txt {
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: bold;
   }
 }
 .menu--inner {
@@ -753,7 +773,7 @@ header{
 }
 .about__txt{
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0 0 50px;
 }
 @media (max-width: 768px) {
@@ -820,7 +840,6 @@ header{
   font-size: 1.5rem;
   margin: 0 auto 20px;
   text-align: center;
-
 }
 @media (max-width: 768px) {
   .takeout--heading{
@@ -828,17 +847,41 @@ header{
     margin: 0 auto 10px;
   }
 }
-
 .takeout--heading--txt{
   font-size: 1rem;
   margin: 0 auto 10px;
   text-align: center;
   font-weight: bold;
-
 }
 @media (max-width: 768px) {
   .takeout--heading--txt{
     font-size: calc(1rem + ((1.3vw - 7.6px) * 1.1048));
     margin: 0 3% 10px;
+  }
+}
+.takeout--heading--tax{
+  font-size: 1rem;
+  margin: 0 auto 20px;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .takeout--heading--tax{
+    font-size: 1rem;
+    margin: 0 3% 15px;
+  }
+}
+
+.emergency-txt{
+  text-align: center;
+  margin: 0 5% 80px;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .emergency-txt{
+    text-align: center;
+    margin: 0 5% 60px;
+    font-size: .95rem;
+    font-weight: bold;
   }
 }
