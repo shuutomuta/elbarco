@@ -885,3 +885,56 @@ font-size: 0.5rem;
     font-weight: bold;
   }
 }
+
+/* 緊急事態宣言対応 */
+.nenmatsu-box{
+  padding: 0.5em 1em;
+  margin: -40px auto 60px;
+  background: white;
+  border: solid 2px #CC0033;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  max-width: 700px;
+}
+
+.nenmatsu-title {
+  line-height: 1;
+  font-size: 24px;
+  background: #FFF;
+  color: #CC0033;
+  font-weight: bold;
+  text-align: center;
+  margin: .5em 0 0;
+}
+.nenmatsu-txt {
+  padding: 0;
+  margin: 1em 0 0.5em;
+  font-size: 20px;
+  color: #CC0033;
+  text-align: center;
+  font-weight: bold;
+}
+
+.nenmatsu-title-sp{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nenmatsu-box{
+    padding: 0.5em 1em;
+    margin: -20px auto 40px;
+    width: 90%;
+  }
+
+  .nenmatsu-title {
+    line-height: 1.25;
+    font-size: 20px;
+  }
+  .nenmatsu-txt {
+    font-size: 15px;
+    text-align: left;
+  }
+  .nenmatsu-title-sp{
+    display: block;
+  }
+}
+/* 緊急事態宣言対応 */
