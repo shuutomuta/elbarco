@@ -8,6 +8,13 @@
     </url>
     
     <url>
+        <loc>https://elbarco.jp/about/</loc>
+        <lastmod>2021-05-25T05:45:53.330Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://elbarco.jp/takeout/</loc>
         <lastmod>2020-12-05T08:59:53.582Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -31,13 +38,6 @@
     <url>
         <loc>https://elbarco.jp/contact/</loc>
         <lastmod>2020-01-30T01:57:39.911Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://elbarco.jp/about/</loc>
-        <lastmod>2020-01-12T09:26:14.605Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
