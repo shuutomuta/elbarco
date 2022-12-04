@@ -55,3 +55,10 @@ $(function () {
       }
   });
 });
+
+var date = new Date();
+var start_year = 1990;
+var estimate_year;
+estimate_year = date.getFullYear()-start_year;
+var elem = document.getElementById("year");
+elem.innerHTML = estimate_year;ß 
